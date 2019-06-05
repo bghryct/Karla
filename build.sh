@@ -50,74 +50,74 @@ do
 	gftools fix-nonhinting $ttf "$ttf.fix";
 	mv "$ttf.fix" $ttf;
 done
-rm /fonts/ttf/*backup*.ttf
+# rm /fonts/ttf/*backup*.ttf
  
-echo "yakshaved ttf backup removed"
+# echo "yakshaved ttf backup removed"
 
-vfs=$(ls ./fonts/variable/*.ttf)
-for vf in $vfs
-do
-	gftools fix-dsig -f $vf;
-	gftools fix-nonhinting $vf "$vf.fix";
-	mv "$vf.fix" $vf;
-	ttx -f -x "MVAR" $vf; # Drop MVAR. Table has issue in DW
-	rtrip=$(basename -s .ttf $vf)
-	new_file=./fonts/variable/$rtrip.ttx;
-	rm $vf;
-	ttx $new_file
-	rm /fonts/variable/*.ttx
-done
-rm /fonts/variable/*backup*.ttf
+# vfs=$(ls ./fonts/variable/*.ttf)
+# for vf in $vfs
+# do
+# 	gftools fix-dsig -f $vf;
+# 	gftools fix-nonhinting $vf "$vf.fix";
+# 	mv "$vf.fix" $vf;
+# 	ttx -f -x "MVAR" $vf; # Drop MVAR. Table has issue in DW
+# 	rtrip=$(basename -s .ttf $vf)
+# 	new_file=./fonts/variable/$rtrip.ttx;
+# 	rm $vf;
+# 	ttx $new_file
+# 	rm /fonts/variable/*.ttx
+# done
+# rm /fonts/variable/*backup*.ttf
 
-gftools fix-vf-meta $vfs;
-for vf in $vfs
-do
-	mv "$vf.fix" $vf;
-done
+# gftools fix-vf-meta $vfs;
+# for vf in $vfs
+# do
+# 	mv "$vf.fix" $vf;
+# done
 
-echo "Post processing complete"
+# echo "Post processing complete"
 
-# cd ..
+# # cd ..
 
-# # ============================================================================
-# # Autohinting ================================================================
+# # # ============================================================================
+# # # Autohinting ================================================================
 
-statics=$(ls ./fonts/ttf/*.ttf)
-echo hello
-for file in $statics; do 
-    echo "fix DSIG in " ${file}
-    gftools fix-dsig --autofix ${file}
-
-
-    echo "TTFautohint " ${file}
-    # autohint with detailed info
-    hintedFile=${file/".ttf"/"-hinted.ttf"}
-    ttfautohint -I ${file} ${hintedFile} 
-    cp ${hintedFile} ${file}
-    rm -rf ${hintedFile}
-done
-
-# # ============================================================================
-# # Fix Hinting ================================================================
-
-statics=$(ls ./fonts/ttf/*.ttf)
-echo "Hi Mirko I am trying to fix the hinting in the statics"
-for file in $statics; do 
-	echo "fix hinting in " ${file}
-	# fix hinting 
-    gftools fix-hinting ${file} 
- done
-
-  ###Remove Broken ttfs ###
-	echo "rm rfing ttfs"
-	rm -rf fonts/ttf/*.ttf
-	echo "ttfs removed"
+# statics=$(ls ./fonts/ttf/*.ttf)
+# echo hello
+# for file in $statics; do 
+#     echo "fix DSIG in " ${file}
+#     gftools fix-dsig --autofix ${file}
 
 
-  # Rename all *.ttf.fix to *.ttf                                                                 
-for f in ./fonts/ttf/*.ttf.fix; do 
-    mv -- "$f" "${f%.ttf.fix}.ttf"     
-done
+#     echo "TTFautohint " ${file}
+#     # autohint with detailed info
+#     hintedFile=${file/".ttf"/"-hinted.ttf"}
+#     ttfautohint -I ${file} ${hintedFile} 
+#     cp ${hintedFile} ${file}
+#     rm -rf ${hintedFile}
+# done
+
+# # # ============================================================================
+# # # Fix Hinting ================================================================
+
+# statics=$(ls ./fonts/ttf/*.ttf)
+# echo "Hi Mirko I am trying to fix the hinting in the statics"
+# for file in $statics; do 
+# 	echo "fix hinting in " ${file}
+# 	# fix hinting 
+#     gftools fix-hinting ${file} 
+#  done
+
+#   ###Remove Broken ttfs ###
+# 	echo "rm rfing ttfs"
+# 	rm -rf fonts/ttf/*.ttf
+# 	echo "ttfs removed"
+
+
+#   # Rename all *.ttf.fix to *.ttf                                                                 
+# for f in ./fonts/ttf/*.ttf.fix; do 
+#     mv -- "$f" "${f%.ttf.fix}.ttf"     
+# done
 
 
 
