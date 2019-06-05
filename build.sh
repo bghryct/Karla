@@ -79,6 +79,15 @@ done
 
 echo "Post processing complete"
 
+
+echo "fixing name-ids"
+gftools fix-nameids $vfs;
+for vf in $vfs 
+do 
+	mv "$vf.fix" $vf;
+done
+
+echo "fixed name-ids"
 # # cd ..
 
 # # # ============================================================================
