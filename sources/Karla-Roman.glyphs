@@ -348,11 +348,11 @@ value = -504;
 },
 {
 name = winDescent;
-value = 504;
+value = 545;
 },
 {
 name = winAscent;
-value = 1834;
+value = 2062;
 },
 {
 name = "Master Icon Glyph Name";
@@ -413,11 +413,11 @@ value = -504;
 },
 {
 name = winDescent;
-value = 504;
+value = 545;
 },
 {
 name = winAscent;
-value = 1834;
+value = 2062;
 },
 {
 name = "Master Icon Glyph Name";

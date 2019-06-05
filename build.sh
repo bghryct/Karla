@@ -50,32 +50,34 @@ do
 	gftools fix-nonhinting $ttf "$ttf.fix";
 	mv "$ttf.fix" $ttf;
 done
-# rm /fonts/ttf/*backup*.ttf
+
+rm ./fonts/ttf/*backup*.ttf
  
-# echo "yakshaved ttf backup removed"
+echo "yakshaved ttf backup removed"
 
-# vfs=$(ls ./fonts/variable/*.ttf)
-# for vf in $vfs
-# do
-# 	gftools fix-dsig -f $vf;
-# 	gftools fix-nonhinting $vf "$vf.fix";
-# 	mv "$vf.fix" $vf;
-# 	ttx -f -x "MVAR" $vf; # Drop MVAR. Table has issue in DW
-# 	rtrip=$(basename -s .ttf $vf)
-# 	new_file=./fonts/variable/$rtrip.ttx;
-# 	rm $vf;
-# 	ttx $new_file
-# 	rm /fonts/variable/*.ttx
-# done
-# rm /fonts/variable/*backup*.ttf
+vfs=$(ls ./fonts/variable/*.ttf)
+for vf in $vfs
+do
+	gftools fix-dsig -f $vf;
+	gftools fix-nonhinting $vf "$vf.fix";
+	mv "$vf.fix" $vf;
+	ttx -f -x "MVAR" $vf; # Drop MVAR. Table has issue in DW
+	rtrip=$(basename -s .ttf $vf)
+	new_file=./fonts/variable/$rtrip.ttx;
+	rm $vf;
+	ttx $new_file
+	rm ./fonts/variable/*.ttx
+done
+rm ./fonts/variable/*backup*.ttf
 
-# gftools fix-vf-meta $vfs;
-# for vf in $vfs
-# do
-# 	mv "$vf.fix" $vf;
-# done
+echo "fix vf meta? ok let's try that. I'm trying to fix VF meta"
+gftools fix-vf-meta $vfs;
+for vf in $vfs
+do
+	mv "$vf.fix" $vf;
+done
 
-# echo "Post processing complete"
+echo "Post processing complete"
 
 # # cd ..
 
