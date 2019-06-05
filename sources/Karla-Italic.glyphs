@@ -5,13 +5,10 @@ DisplayStrings = (
 "/oe",
 "¢¤/euro/florin/rupee ¥/cent.tf/currency.tf/dollar.tf/euro.tf/rupee.tf/sterling.tf/yen.tf ×÷/notequal/greaterequal/lessequal ±/approxequal ¬/infinity/integral/product/summation/radical µ/partialdiff/perthousand/plus.tf/minus.tf/multiply.tf/divide.tf/equal.tf/notequal.tf/greater.tf/less.tf/greaterequal.tf/lessequal.tf/plusminus.tf/approxequal.tf/asciitilde.tf/asciicircum.tf/percent.tf/lozenge ¶§©®/trademark °¦/dagger/daggerdbl",
 "/imacron",
-"",
 "/fraction",
 "/gravecomb",
-"",
 "/DivisionSlash",
 "/cedillacomb",
-"",
 "\015"
 );
 classes = (
@@ -329,11 +326,11 @@ custom = Extra;
 customParameters = (
 {
 name = typoAscender;
-value = 1924;
+value = 1834;
 },
 {
 name = typoDescender;
-value = -525;
+value = -504;
 },
 {
 name = typoLineGap;
@@ -345,19 +342,19 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1924;
+value = 1834;
 },
 {
 name = hheaDescender;
-value = -525;
+value = -504;
 },
 {
 name = winDescent;
-value = 545;
+value = 504;
 },
 {
 name = winAscent;
-value = 2062;
+value = 1834;
 }
 );
 descender = -504;
@@ -382,11 +379,11 @@ custom = "Extra Italic";
 customParameters = (
 {
 name = typoAscender;
-value = 1924;
+value = 1834;
 },
 {
 name = typoDescender;
-value = -525;
+value = -504;
 },
 {
 name = typoLineGap;
@@ -398,19 +395,19 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1924;
+value = 1834;
 },
 {
 name = hheaDescender;
-value = -525;
+value = -504;
 },
 {
 name = winDescent;
-value = 545;
+value = 504;
 },
 {
 name = winAscent;
-value = 2062;
+value = 1834;
 }
 );
 descender = -504;

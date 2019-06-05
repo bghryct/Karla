@@ -321,7 +321,7 @@ custom = Extra;
 customParameters = (
 {
 name = typoDescender;
-value = -525;
+value = -504;
 },
 {
 name = typoLineGap;
@@ -333,23 +333,23 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1924;
+value = 1834;
 },
 {
 name = typoAscender;
-value = 1924;
+value = 1834;
 },
 {
 name = hheaDescender;
-value = -525;
+value = -504;
 },
 {
 name = winDescent;
-value = 545;
+value = 504;
 },
 {
 name = winAscent;
-value = 2062;
+value = 1834;
 },
 {
 name = "Master Icon Glyph Name";
@@ -386,7 +386,7 @@ custom = Extra;
 customParameters = (
 {
 name = typoDescender;
-value = -525;
+value = -504;
 },
 {
 name = typoLineGap;
@@ -398,23 +398,23 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1924;
+value = 1834;
 },
 {
 name = typoAscender;
-value = 1924;
+value = 1834;
 },
 {
 name = hheaDescender;
-value = -525;
+value = -504;
 },
 {
 name = winDescent;
-value = 545;
+value = 504;
 },
 {
 name = winAscent;
-value = 2062;
+value = 1834;
 },
 {
 name = "Master Icon Glyph Name";
