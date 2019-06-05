@@ -6,7 +6,7 @@
 # Install requirements with `pip install -U -r misc/googlefonts-qa/requirements.txt`
 # 
 # after  `make -j all_ttf`
-# call this script from the root of your inter repo, with the absolute path your your google/fonts repo
+# call this script from the root of your inter repo, with the absolute path your google/fonts repo
 # `misc/googlefonts-qa/move-check.sh <your_username>/<path>/fonts`
 
 set -e
