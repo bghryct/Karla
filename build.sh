@@ -3,11 +3,11 @@
 # -------------------------------------------------------------------
 # UPDATE THIS VARIABLE ----------------------------------------------
 
-thisFont="Karla" # must match the name in the font file, e.g. FiraCode-VF.ttf needs the variable "FiraCode"
+# thisFont="Karla" # must match the name in the font file, e.g. FiraCode-VF.ttf needs the variable "FiraCode"
 
 # -------------------------------------------------------------------
 # Update the following as needed ------------------------------------
-# set -e
+set -e
 # source venv/bin/activate
 echo "I should have activated a virtual environment now"
 
@@ -15,7 +15,6 @@ echo "I should have activated a virtual environment now"
 echo "Generating Static fonts"
 
 mkdir -p ./fonts/ttf
-mkdir -p ./fonts/otf
 mkdir -p ./fonts/variable
 
 echo "Made font directories"
@@ -24,13 +23,13 @@ echo "Made Roman ttfs"
 fontmake -g sources/Karla-Italic.glyphs -i -o ttf --output-dir ./fonts/ttf/
 echo "Made Italic ttfs"
 
-fontmake -g sources/Karla-Roman.glyphs -i -o otf --output-dir ./fonts/otf/
-echo "Made Roman otfs"
-fontmake -g sources/Karla-Italic.glyphs -i -o otf --output-dir ./fonts/otf/
-echo "Made Italic otfs"
+# fontmake -g sources/Karla-Roman.glyphs -i -o otf --output-dir ./fonts/otf/
+# echo "Made Roman otfs"
+# fontmake -g sources/Karla-Italic.glyphs -i -o otf --output-dir ./fonts/otf/
+# echo "Made Italic otfs"
 
 echo "Generating VFs"
-mkdir -p ./fonts/variable
+# mkdir -p ./fonts/variable
 fontmake -g sources/Karla-Roman.glyphs -o variable --output-path ./fonts/variable/Karla-Roman-VF.ttf
 fontmake -g sources/Karla-Italic.glyphs -o variable --output-path ./fonts/variable/Karla-Italic-VF.ttf
 
