@@ -9,7 +9,7 @@
 # Update the following as needed ------------------------------------
 set -e
 # source venv/bin/activate
-echo "I should have activated a virtual environment now"
+# echo "I should have activated a virtual environment now"
 
 
 echo "Generating Static fonts"
@@ -49,6 +49,7 @@ do
 	gftools fix-nonhinting $ttf "$ttf.fix";
 	mv "$ttf.fix" $ttf;
 done
+echo "fixed nonhinting ttfs as well as DSIG"
 
 rm ./fonts/ttf/*backup*.ttf
 
@@ -77,14 +78,14 @@ done
 echo "Post processing complete"
 
 
-echo "fixing name-ids"
-gftools fix-nameids $vfs;
-for vf in $vfs 
-do 
-	mv "$vf.fix" $vf;
-done
+# echo "fixing name-ids"
+# gftools fix-nameids $vfs;
+# for vf in $vfs 
+# do 
+# 	mv "$vf.fix" $vf;
+# done
 
-echo "fixed name-ids"
+# echo "fixed name-ids"
 # # cd ..
 
 # # # ============================================================================

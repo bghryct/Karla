@@ -10,7 +10,8 @@ f,
 "/Rupee",
 "/Rupee",
 "12.346\012/one.tf/two.tf/period.tf/three.tf/four.tf/six.tf",
-"/period.tf/comma.tf ,/colon.tf/semicolon.tf/exclam.tf/question.tf ?/asterisk.tf */numbersign.tf/slash.tf/backslash.tf/parenleft.tf/parenright.tf )/braceleft.tf/braceright.tf/bracketleft.tf/bracketright.tf ­/hyphen.tf -/underscore.tf/quotedbl.tf"
+"/period.tf/comma.tf ,/colon.tf/semicolon.tf/exclam.tf/question.tf ?/asterisk.tf */numbersign.tf/slash.tf/backslash.tf/parenleft.tf/parenright.tf )/braceleft.tf/braceright.tf/bracketleft.tf/bracketright.tf ­/hyphen.tf -/underscore.tf/quotedbl.tf",
+"/OE"
 );
 classes = (
 {
@@ -12297,7 +12298,7 @@ unicode = 00D8;
 },
 {
 glyphname = OE;
-lastChange = "2019-05-31 18:02:11 +0000";
+lastChange = "2019-06-06 19:29:19 +0000";
 layers = (
 {
 anchors = (
@@ -12347,7 +12348,7 @@ nodes = (
 "743 1165 OFFCURVE",
 "827 1124 OFFCURVE",
 "908 1043 CURVE",
-"961 1055 LINE",
+"961 1092 LINE",
 "873 1185 OFFCURVE",
 "763 1231 OFFCURVE",
 "619 1231 CURVE SMOOTH",
@@ -12415,32 +12416,32 @@ paths = (
 {
 closed = 1;
 nodes = (
-"848 -32 OFFCURVE",
-"1004 22 OFFCURVE",
-"1068 76 CURVE",
+"774 -32 OFFCURVE",
+"857 -9 OFFCURVE",
+"879 1 CURVE",
 "898 280 LINE",
 "829 264 OFFCURVE",
-"745 255 OFFCURVE",
-"697 255 CURVE SMOOTH",
-"522 255 OFFCURVE",
-"416 416 OFFCURVE",
+"743 255 OFFCURVE",
+"700 255 CURVE SMOOTH",
+"520 255 OFFCURVE",
+"416 417 OFFCURVE",
 "416 670 CURVE SMOOTH",
 "416 928 OFFCURVE",
-"526 1085 OFFCURVE",
-"690 1085 CURVE SMOOTH",
-"744 1085 OFFCURVE",
+"524 1085 OFFCURVE",
+"695 1085 CURVE SMOOTH",
+"742 1085 OFFCURVE",
 "832 1073 OFFCURVE",
 "888 1065 CURVE",
-"1068 1237 LINE",
-"1004 1314 OFFCURVE",
-"851 1372 OFFCURVE",
-"668 1372 CURVE SMOOTH",
-"338 1372 OFFCURVE",
-"86 1146 OFFCURVE",
-"86 678 CURVE SMOOTH",
+"880 1341 LINE",
+"853 1355 OFFCURVE",
+"767 1372 OFFCURVE",
+"674 1372 CURVE SMOOTH",
+"336 1372 OFFCURVE",
+"86 1147 OFFCURVE",
+"86 680 CURVE SMOOTH",
 "86 213 OFFCURVE",
-"335 -32 OFFCURVE",
-"675 -32 CURVE SMOOTH"
+"336 -32 OFFCURVE",
+"671 -32 CURVE SMOOTH"
 );
 },
 {
