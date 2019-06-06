@@ -14,7 +14,8 @@ DisplayStrings = (
 "12.01 \012/one.tf/two.tf/period.tf/zero.tf/one.tf",
 "/period.tf",
 "/ygrave",
-"/period.tf/comma.tf ,/colon.tf/semicolon.tf/exclam.tf/question.tf/asterisk.tf *\012/numbersign.tf/slash.tf/backslash.tf/parenleft.tf (/parenright.tf/braceleft.tf/braceright.tf/bracketleft.tf/bracketright.tf ­/hyphen.tf -/underscore.tf _/quotesinglbase/quotedblbase/quotedblleft/quotedblright «»/guilsinglleft/guilsinglright/quotedbl.tf"
+"/period.tf/comma.tf ,/colon.tf/semicolon.tf/exclam.tf/question.tf/asterisk.tf *\012/numbersign.tf/slash.tf/backslash.tf/parenleft.tf (/parenright.tf/braceleft.tf/braceright.tf/bracketleft.tf/bracketright.tf ­/hyphen.tf -/underscore.tf _/quotesinglbase/quotedblbase/quotedblleft/quotedblright «»/guilsinglleft/guilsinglright/quotedbl.tf",
+"S/Scedilla"
 );
 classes = (
 {
@@ -5465,13 +5466,13 @@ unicode = 0052;
 },
 {
 glyphname = S;
-lastChange = "2019-06-03 20:29:25 +0000";
+lastChange = "2019-06-06 14:27:50 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{586, 0}";
+position = "{546, 0}";
 },
 {
 name = top;
@@ -13831,7 +13832,7 @@ unicode = 0160;
 },
 {
 glyphname = Scedilla;
-lastChange = "2019-06-03 20:29:25 +0000";
+lastChange = "2019-06-06 14:27:50 +0000";
 layers = (
 {
 components = (
@@ -13840,7 +13841,7 @@ name = S;
 },
 {
 name = cedillacomb;
-transform = "{1, 0, 0, 1, 338, 0}";
+transform = "{1, 0, 0, 1, 298, 0}";
 }
 );
 layerId = "AD226DB4-BE97-401A-8A1F-FC26A063DFB1";
@@ -13864,7 +13865,7 @@ unicode = 015E;
 },
 {
 glyphname = Scommaaccent;
-lastChange = "2019-06-03 20:29:25 +0000";
+lastChange = "2019-06-06 14:27:52 +0000";
 layers = (
 {
 components = (
@@ -13873,7 +13874,7 @@ name = S;
 },
 {
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 443, 0}";
+transform = "{1, 0, 0, 1, 403, 0}";
 }
 );
 layerId = "AD226DB4-BE97-401A-8A1F-FC26A063DFB1";
