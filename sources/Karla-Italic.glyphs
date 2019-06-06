@@ -220,10 +220,6 @@ value = "http://scripts.sil.org/OFL";
 {
 name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-},
-{
-name = "Variable Font Family Name";
-value = Karla;
 }
 );
 date = "2019-06-06 13:04:22 +0000";
