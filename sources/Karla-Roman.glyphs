@@ -234,7 +234,7 @@ name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
 }
 );
-date = "2019-06-04 16:46:06 +0000";
+date = "2019-06-06 13:04:24 +0000";
 designer = "Jonathan Pinhorn";
 familyName = Karla;
 featurePrefixes = (
@@ -390,6 +390,10 @@ capHeight = 1342;
 custom = Extra;
 customParameters = (
 {
+name = typoAscender;
+value = 1834;
+},
+{
 name = typoDescender;
 value = -504;
 },
@@ -403,10 +407,6 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1834;
-},
-{
-name = typoAscender;
 value = 1834;
 },
 {
@@ -20729,9 +20729,8 @@ rightMetricsKey = periodcentered;
 unicode = 2022;
 },
 {
-export = 0;
 glyphname = period.tf;
-lastChange = "2019-06-05 22:06:25 +0000";
+lastChange = "2019-06-05 22:53:14 +0000";
 layers = (
 {
 layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
@@ -20782,9 +20781,8 @@ width = 507;
 );
 },
 {
-export = 0;
 glyphname = comma.tf;
-lastChange = "2019-06-05 22:11:18 +0000";
+lastChange = "2019-06-05 22:53:14 +0000";
 layers = (
 {
 layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
@@ -20843,9 +20841,8 @@ width = 598;
 );
 },
 {
-export = 0;
 glyphname = colon.tf;
-lastChange = "2019-06-05 22:12:18 +0000";
+lastChange = "2019-06-05 22:53:14 +0000";
 layers = (
 {
 components = (
@@ -20882,9 +20879,8 @@ width = 507;
 );
 },
 {
-export = 0;
 glyphname = semicolon.tf;
-lastChange = "2019-06-05 22:13:22 +0000";
+lastChange = "2019-06-05 22:53:14 +0000";
 layers = (
 {
 components = (
@@ -20920,9 +20916,8 @@ width = 598;
 );
 },
 {
-export = 0;
 glyphname = exclam.tf;
-lastChange = "2019-06-05 22:15:00 +0000";
+lastChange = "2019-06-05 22:53:14 +0000";
 layers = (
 {
 layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
@@ -20991,9 +20986,8 @@ width = 598;
 );
 },
 {
-export = 0;
 glyphname = question.tf;
-lastChange = "2019-06-05 22:15:49 +0000";
+lastChange = "2019-06-05 22:53:14 +0000";
 layers = (
 {
 layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
@@ -21110,9 +21104,8 @@ width = 1073;
 );
 },
 {
-export = 0;
 glyphname = asterisk.tf;
-lastChange = "2019-06-05 22:16:50 +0000";
+lastChange = "2019-06-05 22:53:09 +0000";
 layers = (
 {
 layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
@@ -21169,9 +21162,8 @@ width = 811;
 );
 },
 {
-export = 0;
 glyphname = numbersign.tf;
-lastChange = "2019-05-16 17:36:35 +0000";
+lastChange = "2019-06-05 22:53:09 +0000";
 layers = (
 {
 layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
@@ -21272,9 +21264,8 @@ width = 1200;
 );
 },
 {
-export = 0;
 glyphname = slash.tf;
-lastChange = "2019-05-16 17:36:35 +0000";
+lastChange = "2019-06-05 22:53:02 +0000";
 layers = (
 {
 layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
@@ -21309,9 +21300,8 @@ width = 1200;
 );
 },
 {
-export = 0;
 glyphname = backslash.tf;
-lastChange = "2019-05-16 17:36:35 +0000";
+lastChange = "2019-06-05 22:53:02 +0000";
 layers = (
 {
 components = (
@@ -21338,9 +21328,8 @@ width = 1200;
 );
 },
 {
-export = 0;
 glyphname = parenleft.tf;
-lastChange = "2019-06-05 22:18:29 +0000";
+lastChange = "2019-06-05 22:53:02 +0000";
 layers = (
 {
 components = (
@@ -21367,9 +21356,8 @@ width = 891;
 );
 },
 {
-export = 0;
 glyphname = parenright.tf;
-lastChange = "2019-06-05 22:17:53 +0000";
+lastChange = "2019-06-05 22:53:02 +0000";
 layers = (
 {
 components = (
@@ -21396,9 +21384,8 @@ width = 891;
 );
 },
 {
-export = 0;
 glyphname = braceleft.tf;
-lastChange = "2019-06-05 22:20:15 +0000";
+lastChange = "2019-06-05 22:53:02 +0000";
 layers = (
 {
 components = (
@@ -21425,9 +21412,8 @@ width = 891;
 );
 },
 {
-export = 0;
 glyphname = braceright.tf;
-lastChange = "2019-06-05 22:19:15 +0000";
+lastChange = "2019-06-05 22:53:02 +0000";
 layers = (
 {
 components = (
@@ -21454,9 +21440,8 @@ width = 891;
 );
 },
 {
-export = 0;
 glyphname = bracketleft.tf;
-lastChange = "2019-06-05 22:20:56 +0000";
+lastChange = "2019-06-05 22:53:02 +0000";
 layers = (
 {
 components = (
@@ -21483,9 +21468,8 @@ width = 891;
 );
 },
 {
-export = 0;
 glyphname = bracketright.tf;
-lastChange = "2019-06-05 22:21:16 +0000";
+lastChange = "2019-06-05 22:53:02 +0000";
 layers = (
 {
 components = (
@@ -21536,9 +21520,8 @@ width = 1200;
 unicode = 00AD;
 },
 {
-export = 0;
 glyphname = hyphen.tf;
-lastChange = "2019-06-05 22:22:12 +0000";
+lastChange = "2019-06-05 22:53:06 +0000";
 layers = (
 {
 components = (
@@ -21564,9 +21547,8 @@ width = 800;
 );
 },
 {
-export = 0;
 glyphname = underscore.tf;
-lastChange = "2019-06-05 22:22:27 +0000";
+lastChange = "2019-06-05 22:53:06 +0000";
 layers = (
 {
 components = (
@@ -21875,9 +21857,8 @@ rightMetricsKey = o;
 unicode = 203A;
 },
 {
-export = 0;
 glyphname = quotedbl.tf;
-lastChange = "2019-06-05 22:40:17 +0000";
+lastChange = "2019-06-05 22:52:58 +0000";
 layers = (
 {
 components = (
@@ -28201,5 +28182,5 @@ Y = -49;
 };
 unitsPerEm = 2000;
 versionMajor = 2;
-versionMinor = 0;
+versionMinor = 1;
 }

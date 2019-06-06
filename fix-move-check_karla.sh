@@ -9,19 +9,19 @@
 # call this script from the root of your inter repo, with the absolute path your google/fonts repo
 # `misc/googlefonts-qa/move-check.sh <your_username>/<path>/fonts`
 
-set -e
-source venv/bin/activate
+# set -e
+# source venv/bin/activate
 
-gFontsDir=$1
-if [[ -z "$gFontsDir" || $gFontsDir = "--help" ]] ; then
-    echo 'Add absolute path to your Google Fonts Git directory, like:'
-    echo 'misc/googlefonts-qa/move-check.sh /Users/username/type-repos/google-font-repos/fonts'
-    exit 2
-fi
+# gFontsDir=$1
+# if [[ -z "$gFontsDir" || $gFontsDir = "--help" ]] ; then
+#     echo 'Add absolute path to your Google Fonts Git directory, like:'
+#     echo 'misc/googlefonts-qa/move-check.sh /Users/username/type-repos/google-font-repos/fonts'
+#     exit 2
+# fi
 
-interDir=$(pwd)
+# interDir=$(pwd)
 
-interQADir=$interDir/misc/googlefonts-qa
+# interQADir=$interDir/misc/googlefonts-qa
 
 interUprightVF=$interDir/build/fonts/var/Inter-Roman-VF.ttf
 interItalicVF=$interDir/build/fonts/var/Inter-Italic-VF.ttf
