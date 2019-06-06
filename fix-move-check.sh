@@ -52,25 +52,26 @@ echo "Hopefully this fixes the metadata issue?"
 
 # prevent warnings/issues caused by no hinting tables – this fixes the file in-place
 
-# gftools fix-nonhinting $interUprightVF $interUprightVF
-# gftools fix-nonhinting $interItalicVF $interItalicVF
+gftools fix-nonhinting $KarlaRVF $KarlaRVF
+gftools fix-nonhinting $KarlaIVF $KarlaIVF
 
-# rm ${interUprightVF/".ttf"/"-backup-fonttools-prep-gasp.ttf"}
-# rm ${interItalicVF/".ttf"/"-backup-fonttools-prep-gasp.ttf"}
+rm ${KarlaRVF/".ttf"/"-backup-fonttools-prep-gasp.ttf"}
+rm ${KarlaIVF/".ttf"/"-backup-fonttools-prep-gasp.ttf"}
 
-# # assert google fonts spec for how fonts should rasterize in different contexts
+# assert google fonts spec for how fonts should rasterize in different contexts
 
-# gftools fix-gasp --autofix $interUprightVF
-# gftools fix-gasp --autofix $interItalicVF
+gftools fix-gasp --autofix $KarlaRVF
+gftools fix-gasp --autofix $KarlaIVF
 
-# mv ${interUprightVF/".ttf"/".ttf.fix"} $interUprightVF
-# mv ${interItalicVF/".ttf"/".ttf.fix"} $interItalicVF
+mv ${KarlaRVF/".ttf"/".ttf.fix"} $KarlaRVF
+mv ${KarlaIVF/".ttf"/".ttf.fix"} $KarlaIVF
 
-# # prevent warnings/issues caused by no digital signature tables
+# prevent warnings/issues caused by no digital signature tables
 
-# gftools fix-dsig --autofix $interUprightVF 
-# gftools fix-dsig --autofix $interItalicVF
+gftools fix-dsig --autofix $KarlaRVF
+gftools fix-dsig --autofix $KarlaIVF
 
+echo "all should be well in the land"
 # # -------------------------------------------------------------------
 # # navigate to google/fonts repo, get latest, then update inter branch
 

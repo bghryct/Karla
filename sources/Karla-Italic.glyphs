@@ -237,6 +237,10 @@ value = "http://scripts.sil.org/OFL";
 {
 name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = "New Parameter";
+value = "New Value";
 }
 );
 date = "2019-06-06 13:04:22 +0000";
@@ -371,6 +375,9 @@ descender = -504;
 id = "AD226DB4-BE97-401A-8A1F-FC26A063DFB1";
 italicAngle = 8;
 name = ExtraLight;
+verticalStems = (
+33
+);
 weight = Light;
 weightValue = 33;
 xHeight = 939;
@@ -428,6 +435,9 @@ descender = -504;
 id = "2146CDF3-509B-498B-BCC4-8BA41979C9D7";
 italicAngle = 8;
 name = "ExtraBold Italic";
+verticalStems = (
+148
+);
 weight = Bold;
 weightValue = 148;
 xHeight = 991;
@@ -26772,6 +26782,7 @@ instanceInterpolations = {
 "AD226DB4-BE97-401A-8A1F-FC26A063DFB1" = 0.66957;
 };
 isItalic = 1;
+linkStyle = Regular;
 name = Italic;
 weightClass = Normal;
 },
