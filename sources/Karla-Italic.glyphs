@@ -1,22 +1,5 @@
 {
 .appVersion = "1230";
-DisplayStrings = (
-"/Abreve/Amacron/Aogonek ÅÆ/Cacute/Ccaron Ç/Cdotaccent Ð/Dcaron/Dcroat/Ecaron/Edotaccent/Emacron/Eogonek/Gbreve/Gcommaaccent/Gdotaccent/Hbar/Idotaccent/Imacron/Iogonek/Kcommaaccent/Lacute/Lcaron/Lcommaaccent/Lslash/Nacute/Ncaron N/Ncommaaccent/Eng/Ohungarumlaut/Omacron Ø/OE Þ/Racute/Rcaron/Rcommaaccent/Sacute/Scaron S/Scedilla/Scommaaccent/Germandbls/Tbar/Tcaron/Tcedilla/Tcommaaccent/Uhungarumlaut/Umacron/Uogonek/Uring/Wacute/Wcircumflex/Wdieresis/Wgrave Ý/Ycircumflex/Ydieresis/Ygrave/Zacute/Zcaron/Zdotaccent/abreve/amacron/aogonek åæ/cacute/ccaron ç/cdotaccent ð/dcaron/dcroat/ecaron/edotaccent/emacron/eogonek/gbreve/gcommaaccent/gdotaccent/hbar/idotless/idotaccent/imacron/iogonek/jdotless/kcommaaccent/lacute l/lcaron/lcommaaccent/lslash/nacute/ncaron/ncommaaccent/eng o/ohungarumlaut/omacron ø/oe þ/racute r/caroncomb/rcaron/rcommaaccent s/acutecomb/sacute/scaron/scedilla/scommaaccent ß/tbar/tcaron t/tcedilla/tcommaaccent/uhungarumlaut/umacron/uogonek/uring/wacute/wcircumflex/wdieresis/wgrave ý/ycircumflex/ydieresis/ygrave/zacute/zcaron/zdotaccent/fi/fl",
-"/oe",
-"¢¤/euro/florin/rupee ¥/cent.tf/currency.tf/dollar.tf/euro.tf/rupee.tf/sterling.tf/yen.tf ×÷/notequal/greaterequal/lessequal ±/approxequal ¬/infinity/integral/product/summation/radical µ/partialdiff/perthousand/plus.tf/minus.tf/multiply.tf/divide.tf/equal.tf/notequal.tf/greater.tf/less.tf/greaterequal.tf/lessequal.tf/plusminus.tf/approxequal.tf/asciitilde.tf/asciicircum.tf/percent.tf/lozenge ¶§©®/trademark °¦/dagger/daggerdbl",
-"/imacron",
-"/fraction",
-"/gravecomb",
-"/DivisionSlash",
-"/cedillacomb",
-"/Rupee \015",
-"/Rupee",
-"12.01 \012/one.tf/two.tf/period.tf/zero.tf/one.tf",
-"/period.tf",
-"/ygrave",
-"/period.tf/comma.tf ,/colon.tf/semicolon.tf/exclam.tf/question.tf/asterisk.tf *\012/numbersign.tf/slash.tf/backslash.tf/parenleft.tf (/parenright.tf/braceleft.tf/braceright.tf/bracketleft.tf/bracketright.tf ­/hyphen.tf -/underscore.tf _/quotesinglbase/quotedblbase/quotedblleft/quotedblright «»/guilsinglleft/guilsinglright/quotedbl.tf",
-"S/Scedilla"
-);
 classes = (
 {
 automatic = 1;
@@ -239,8 +222,8 @@ name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
 },
 {
-name = "New Parameter";
-value = "New Value";
+name = "Variable Font Family Name";
+value = Karla;
 }
 );
 date = "2019-06-06 13:04:22 +0000";
@@ -332,7 +315,7 @@ alignmentZones = (
 );
 ascender = 1834;
 capHeight = 1215;
-custom = Extra;
+custom = "Extra Italic";
 customParameters = (
 {
 name = typoAscender;
@@ -374,7 +357,7 @@ value = a;
 descender = -504;
 id = "AD226DB4-BE97-401A-8A1F-FC26A063DFB1";
 italicAngle = 8;
-name = ExtraLight;
+name = "ExtraLight Italic";
 verticalStems = (
 33
 );
@@ -26782,9 +26765,7 @@ instanceInterpolations = {
 "AD226DB4-BE97-401A-8A1F-FC26A063DFB1" = 0.66957;
 };
 isItalic = 1;
-linkStyle = Regular;
 name = Italic;
-weightClass = Normal;
 },
 {
 interpolationWeight = 88;
@@ -26805,7 +26786,6 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = Regular;
 name = "Bold Italic";
 weightClass = Bold;
 },
