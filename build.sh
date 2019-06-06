@@ -52,8 +52,6 @@ do
 done
 
 rm ./fonts/ttf/*backup*.ttf
- 
-echo "yakshaved ttf backup removed"
 
 vfs=$(ls ./fonts/variable/*.ttf)
 for vf in $vfs

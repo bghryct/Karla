@@ -23,8 +23,8 @@
 
 # interQADir=$interDir/misc/googlefonts-qa
 
-KarlaRVF=./sources/Karla-Roman.glyphs
-KarlaIVF=./sources/Karla-Italic.glyphs
+KarlaRVF=./fonts/variable/Karla-Roman-VF.ttf
+KarlaIVF=./fonts/variable/Karla-Italic-VF.ttf
 
 
 # -------------------------------------------------------------------
@@ -47,6 +47,8 @@ gftools fix-vf-meta $KarlaIVF
 
 mv "$KarlaRVF.fix" $KarlaRVF
 mv "$KarlaIVF.fix" $KarlaIVF
+
+echo "Hopefully this fixes the metadata issue?"
 
 # prevent warnings/issues caused by no hinting tables – this fixes the file in-place
 
