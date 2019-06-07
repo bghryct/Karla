@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zero.dnom" format="2">
+  <advance width="994"/>
+  <outline>
+    <component base="zero" xScale="0.625" yScale="0.625" xOffset="208" yOffset="-6"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/03 16:35:57</string>
+    </dict>
+  </lib>
+</glyph>

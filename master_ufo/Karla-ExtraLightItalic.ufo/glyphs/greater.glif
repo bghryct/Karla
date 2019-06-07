@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greater" format="2">
+  <advance width="725"/>
+  <unicode hex="003E"/>
+  <outline>
+    <contour>
+      <point x="141" y="106" type="line"/>
+      <point x="713" y="546" type="line"/>
+      <point x="717" y="602" type="line"/>
+      <point x="228" y="1046" type="line"/>
+      <point x="180" y="991" type="line"/>
+      <point x="647" y="573" type="line"/>
+      <point x="102" y="165" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/05/24 19:57:20</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="backslash.tf" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="863" y="-131" type="line"/>
+      <point x="926" y="-131" type="line"/>
+      <point x="335" y="1429" type="line"/>
+      <point x="274" y="1429" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/05 22:53:37</string>
+    </dict>
+  </lib>
+</glyph>

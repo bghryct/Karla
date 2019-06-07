@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="three.dnom" format="2">
+  <advance width="1003"/>
+  <outline>
+    <component base="three" xScale="0.625" yScale="0.625" xOffset="198" yOffset="-6"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/03 16:36:05</string>
+    </dict>
+  </lib>
+</glyph>

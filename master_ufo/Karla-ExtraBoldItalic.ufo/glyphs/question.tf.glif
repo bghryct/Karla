@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="question.tf" format="2">
+  <advance width="1000"/>
+  <outline>
+    <contour>
+      <point x="342" y="467" type="line"/>
+      <point x="645" y="467" type="line"/>
+      <point x="644" y="501" type="line" smooth="yes"/>
+      <point x="642" y="568"/>
+      <point x="692" y="616"/>
+      <point x="807" y="675" type="curve" smooth="yes"/>
+      <point x="949" y="748"/>
+      <point x="1011" y="844"/>
+      <point x="1021" y="976" type="curve" smooth="yes"/>
+      <point x="1038" y="1206"/>
+      <point x="884" y="1377"/>
+      <point x="601" y="1377" type="curve" smooth="yes"/>
+      <point x="314" y="1377"/>
+      <point x="142" y="1201"/>
+      <point x="107" y="926" type="curve"/>
+      <point x="409" y="926" type="line"/>
+      <point x="413" y="1012"/>
+      <point x="483" y="1079"/>
+      <point x="588" y="1079" type="curve" smooth="yes"/>
+      <point x="654" y="1079"/>
+      <point x="702" y="1035"/>
+      <point x="691" y="976" type="curve" smooth="yes"/>
+      <point x="682" y="929"/>
+      <point x="676" y="892"/>
+      <point x="556" y="837" type="curve" smooth="yes"/>
+      <point x="432" y="780"/>
+      <point x="371" y="711"/>
+      <point x="350" y="535" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="454" y="-35" type="curve" smooth="yes"/>
+      <point x="574" y="-35"/>
+      <point x="669" y="57"/>
+      <point x="676" y="179" type="curve" smooth="yes"/>
+      <point x="683" y="302"/>
+      <point x="609" y="384"/>
+      <point x="497" y="384" type="curve" smooth="yes"/>
+      <point x="378" y="384"/>
+      <point x="286" y="299"/>
+      <point x="274" y="177" type="curve" smooth="yes"/>
+      <point x="262" y="57"/>
+      <point x="334" y="-35"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/05 22:53:44</string>
+    </dict>
+  </lib>
+</glyph>

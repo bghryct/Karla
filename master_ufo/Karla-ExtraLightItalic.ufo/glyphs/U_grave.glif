@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ugrave" format="2">
+  <advance width="1109"/>
+  <unicode hex="00D9"/>
+  <anchor x="489" y="0" name="bottom"/>
+  <anchor x="545" y="10" name="ogonek"/>
+  <anchor x="740" y="1532" name="top"/>
+  <anchor x="1194" y="1215" name="topright"/>
+  <outline>
+    <component base="U"/>
+    <component base="gravecomb" xOffset="248" yOffset="276"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/03 18:40:33</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ntilde" format="2">
+  <advance width="1169"/>
+  <unicode hex="00D1"/>
+  <anchor x="589" y="0" name="bottom"/>
+  <anchor x="747" y="1619" name="top"/>
+  <outline>
+    <component base="N"/>
+    <component base="tildecomb" xOffset="235" yOffset="276"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/03 18:31:35</string>
+    </dict>
+  </lib>
+</glyph>

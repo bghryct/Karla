@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hbar" format="2">
+  <advance width="1051"/>
+  <unicode hex="0127"/>
+  <anchor x="460" y="0" name="bottom"/>
+  <anchor x="589" y="917" name="center"/>
+  <anchor x="383.516" y="1150.72" name="top"/>
+  <outline>
+    <component base="h"/>
+    <component base="macroncomb" xScale="0.86384" yScale="0.84" xOffset="-70" yOffset="115"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/03 19:00:26</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

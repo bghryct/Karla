@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macroncomb" format="2">
+  <unicode hex="0304"/>
+  <anchor x="483" y="939" name="_top"/>
+  <anchor x="525" y="1233" name="top"/>
+  <outline>
+    <contour>
+      <point x="249" y="1233" type="line"/>
+      <point x="235" y="1167" type="line"/>
+      <point x="791" y="1167" type="line"/>
+      <point x="805" y="1233" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/03 18:18:59</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>748</integer>
+    </dict>
+  </lib>
+</glyph>

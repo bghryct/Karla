@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="product" format="2">
+  <advance width="1200"/>
+  <unicode hex="220F"/>
+  <outline>
+    <contour>
+      <point x="-20" y="-478" type="line"/>
+      <point x="300" y="-478" type="line"/>
+      <point x="525" y="1132" type="line"/>
+      <point x="443" y="1060" type="line"/>
+      <point x="917" y="1060" type="line"/>
+      <point x="855" y="1132" type="line"/>
+      <point x="630" y="-478" type="line"/>
+      <point x="950" y="-478" type="line"/>
+      <point x="1204" y="1342" type="line"/>
+      <point x="234" y="1342" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/03 21:04:25</string>
+    </dict>
+  </lib>
+</glyph>

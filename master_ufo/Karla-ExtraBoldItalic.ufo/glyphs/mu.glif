@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="mu" format="2">
+  <advance width="1174"/>
+  <unicode hex="03BC"/>
+  <anchor x="517" y="0" name="bottom_1"/>
+  <anchor x="178.37515" y="-391" name="bottom_2"/>
+  <anchor x="312.23940999999996" y="526" name="center"/>
+  <anchor x="889" y="10" name="ogonek"/>
+  <anchor x="657" y="991" name="top_1"/>
+  <anchor x="384.43721999999997" y="973" name="top_2"/>
+  <anchor x="1224" y="991" name="topright_1"/>
+  <anchor x="565.76364" y="1627" name="topright_2"/>
+  <outline>
+    <component base="u"/>
+    <component base="l" xScale="0.97565" yxScale="0.00873" xOffset="-47" yOffset="-391"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/03 19:31:33</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

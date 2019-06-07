@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ygrave" format="2">
+  <advance width="879"/>
+  <unicode hex="1EF2"/>
+  <anchor x="374" y="0" name="bottom"/>
+  <anchor x="625" y="1532" name="top"/>
+  <anchor x="125" y="1215" name="topleft"/>
+  <outline>
+    <component base="Y"/>
+    <component base="gravecomb" xOffset="133" yOffset="276"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/03 18:40:33</string>
+    </dict>
+  </lib>
+</glyph>

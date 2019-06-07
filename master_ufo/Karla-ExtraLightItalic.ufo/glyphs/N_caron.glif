@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ncaron" format="2">
+  <advance width="1169"/>
+  <unicode hex="0147"/>
+  <anchor x="589" y="0" name="bottom"/>
+  <anchor x="761" y="1721" name="top"/>
+  <outline>
+    <component base="N"/>
+    <component base="caroncomb" xOffset="202" yOffset="276"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/03 20:27:37</string>
+    </dict>
+  </lib>
+</glyph>

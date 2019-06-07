@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="trademark" format="2">
+  <advance width="1158"/>
+  <unicode hex="2122"/>
+  <anchor x="355.0" y="939.0" name="bottom_1"/>
+  <anchor x="875.5" y="939.0" name="bottom_2"/>
+  <anchor x="339.0" y="1243.0" name="center"/>
+  <anchor x="382.0" y="1546.5" name="top_1"/>
+  <anchor x="961.0" y="1546.5" name="top_2"/>
+  <outline>
+    <component base="T" xScale="0.5" yScale="0.5" xOffset="119" yOffset="939"/>
+    <component base="M" xScale="0.5" yScale="0.5" xOffset="540" yOffset="939"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/03 21:01:00</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

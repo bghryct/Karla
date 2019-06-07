@@ -1,0 +1,298 @@
+# automatic
+@AllLetters = [ a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z agrave egrave ograve Agrave Egrave ugrave aacute eacute oacute uacute Aacute Eacute Igrave Iacute Ograve Oacute Ugrave Uacute acircumflex ecircumflex ocircumflex ucircumflex Acircumflex Ecircumflex Icircumflex Ocircumflex Ucircumflex adieresis edieresis odieresis udieresis Adieresis Edieresis Idieresis Odieresis Udieresis igrave iacute icircumflex idieresis atilde ntilde otilde Atilde Ntilde Otilde Abreve Amacron Aogonek Aring AE Cacute Ccaron Ccedilla Cdotaccent Eth Dcaron Dcroat Ecaron Edotaccent Emacron Eogonek Gbreve Gcommaaccent Gdotaccent Hbar Idotaccent Imacron Iogonek Kcommaaccent Lacute Lcaron Lcommaaccent Lslash Nacute Ncaron Ncommaaccent Eng Ohungarumlaut Omacron Oslash OE Thorn Racute Rcaron Rcommaaccent Sacute Scaron Scedilla Scommaaccent Germandbls Tbar Tcaron Tcedilla Tcommaaccent Uhungarumlaut Umacron Uogonek Uring Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Zacute Zcaron Zdotaccent abreve amacron aogonek aring ae cacute ccaron ccedilla cdotaccent eth dcaron dcroat ecaron edotaccent emacron eogonek gbreve gcommaaccent gdotaccent hbar idotless idotaccent imacron iogonek jdotless kcommaaccent lacute lcaron lcommaaccent lslash nacute ncaron ncommaaccent eng ohungarumlaut omacron oslash oe thorn racute rcaron rcommaaccent sacute scaron scedilla scommaaccent germandbls tbar tcaron tcedilla tcommaaccent uhungarumlaut umacron uogonek uring wacute wcircumflex wdieresis wgrave yacute ycircumflex ydieresis ygrave zacute zcaron zdotaccent fi fl ordfeminine ordmasculine Delta Omega mu pi ];
+
+# automatic
+@All = [ CR space comma period semicolon colon hyphen endash emdash exclam a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z quotesingle apostrophe quoteleft quoteright parenleft parenright plus minus equal zero one two three four five six seven eight nine zero.propold one.propold two.propold three.propold four.propold five.propold six.propold seven.propold eight.propold nine.propold dollar question sterling grave acute agrave egrave ograve Agrave Egrave ugrave aacute eacute oacute uacute Aacute Eacute Igrave Iacute Ograve Oacute Ugrave Uacute circumflex acircumflex ecircumflex ocircumflex ucircumflex Acircumflex Ecircumflex Icircumflex Ocircumflex Ucircumflex tilde ampersand at dieresis adieresis edieresis odieresis udieresis Adieresis Edieresis Idieresis Odieresis Udieresis igrave iacute icircumflex idieresis less greater quotedbl numbersign asterisk slash percent backslash bar bracketleft bracketright asciicircum underscore braceleft braceright asciitilde atilde ntilde otilde Atilde Ntilde Otilde Abreve Amacron Aogonek Aring AE Cacute Ccaron Ccedilla Cdotaccent Eth Dcaron Dcroat Ecaron Edotaccent Emacron Eogonek Gbreve Gcommaaccent Gdotaccent Hbar Idotaccent Imacron Iogonek Kcommaaccent Lacute Lcaron Lcommaaccent Lslash Nacute Ncaron Ncommaaccent Eng Ohungarumlaut Omacron Oslash OE Thorn Racute Rcaron Rcommaaccent Sacute Scaron Scedilla Scommaaccent Germandbls Tbar Tcaron Tcedilla Tcommaaccent Uhungarumlaut Umacron Uogonek Uring Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Zacute Zcaron Zdotaccent abreve amacron aogonek aring ae cacute ccaron ccedilla cdotaccent eth dcaron dcroat ecaron edotaccent emacron eogonek gbreve gcommaaccent gdotaccent hbar idotless idotaccent imacron iogonek jdotless kcommaaccent lacute lcaron lcommaaccent lslash nacute ncaron ncommaaccent eng ohungarumlaut omacron oslash oe thorn racute rcaron rcommaaccent sacute scaron scedilla scommaaccent germandbls tbar tcaron tcedilla tcommaaccent uhungarumlaut umacron uogonek uring wacute wcircumflex wdieresis wgrave yacute ycircumflex ydieresis ygrave zacute zcaron zdotaccent fi fl ordfeminine ordmasculine Delta Omega mu pi zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior fraction onehalf onequarter threequarters oneeighth threeeighths fiveeighths seveneighths ellipsis exclamdown questiondown periodcentered bullet period.tf comma.tf colon.tf semicolon.tf exclam.tf question.tf asterisk.tf numbersign.tf slash.tf backslash.tf parenleft.tf parenright.tf braceleft.tf braceright.tf bracketleft.tf bracketright.tf softhyphen hyphen.tf underscore.tf quotesinglbase quotedblbase quotedblleft quotedblright guillemetleft guillemetright guilsinglleft guilsinglright quotedbl.tf nbspace Rupee cent currency euro florin rupee yen cent.tf currency.tf dollar.tf euro.tf rupee.tf sterling.tf yen.tf DivisionSlash multiply divide notequal greaterequal lessequal plusminus approxequal logicalnot infinity emptyset integral product summation radical micro partialdiff perthousand plus.tf minus.tf multiply.tf divide.tf equal.tf notequal.tf greater.tf less.tf greaterequal.tf lessequal.tf plusminus.tf approxequal.tf asciitilde.tf asciicircum.tf percent.tf lozenge paragraph section copyright registered trademark degree brokenbar dagger daggerdbl dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb commaturnedabovecomb commaaccentcomb cedillacomb ogonekcomb breve caron cedilla dotaccent hungarumlaut macron ogonek ring ];
+
+# Prefix: Languagesystems
+# automatic
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem cyrl dflt;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn KAZ;
+languagesystem latn TRK;
+languagesystem latn CRT;
+languagesystem latn AZE;
+languagesystem cyrl TAT;
+
+
+feature aalt {
+# automatic
+feature locl;
+feature subs;
+feature sinf;
+feature sups;
+feature numr;
+feature dnom;
+feature frac;
+feature ordn;
+feature pnum;
+feature tnum;
+
+} aalt;
+
+feature ccmp {
+# automatic
+lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningNonTopAccents = [cedillacomb ogonekcomb];
+	sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+} ccmp_Other_1;
+
+} ccmp;
+
+feature locl {
+# automatic
+script latn;
+language ROM;
+sub Scedilla by Scommaaccent;
+sub scedilla by scommaaccent;
+sub Tcedilla by Tcommaaccent;
+sub tcedilla by tcommaaccent;
+language MOL;
+sub Scedilla by Scommaaccent;
+sub scedilla by scommaaccent;
+sub Tcedilla by Tcommaaccent;
+sub tcedilla by tcommaaccent;
+language KAZ;
+sub i by idotaccent;
+language TRK;
+sub i by idotaccent;
+language CRT;
+sub i by idotaccent;
+language AZE;
+sub i by idotaccent;
+
+script cyrl;
+language TAT;
+sub i by idotaccent;
+
+} locl;
+
+feature subs {
+# automatic
+sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+
+} subs;
+
+feature sinf {
+# automatic
+sub zero by zeroinferior;
+sub one by oneinferior;
+sub two by twoinferior;
+sub three by threeinferior;
+sub four by fourinferior;
+sub five by fiveinferior;
+sub six by sixinferior;
+sub seven by seveninferior;
+sub eight by eightinferior;
+sub nine by nineinferior;
+
+} sinf;
+
+feature sups {
+# automatic
+sub zero by zerosuperior;
+sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+sub four by foursuperior;
+sub five by fivesuperior;
+sub six by sixsuperior;
+sub seven by sevensuperior;
+sub eight by eightsuperior;
+sub nine by ninesuperior;
+
+} sups;
+
+feature numr {
+# automatic
+sub zero by zero.numr;
+sub one by one.numr;
+sub two by two.numr;
+sub three by three.numr;
+sub four by four.numr;
+sub five by five.numr;
+sub six by six.numr;
+sub seven by seven.numr;
+sub eight by eight.numr;
+sub nine by nine.numr;
+
+} numr;
+
+feature dnom {
+# automatic
+sub zero by zero.dnom;
+sub one by one.dnom;
+sub two by two.dnom;
+sub three by three.dnom;
+sub four by four.dnom;
+sub five by five.dnom;
+sub six by six.dnom;
+sub seven by seven.dnom;
+sub eight by eight.dnom;
+sub nine by nine.dnom;
+
+} dnom;
+
+feature frac {
+# automatic
+lookup FRAC {
+	sub slash by fraction;
+} FRAC;
+lookup UP {
+	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
+} UP;
+lookup DOWN {
+	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+} DOWN;
+
+} frac;
+
+feature ordn {
+# automatic
+sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+
+} ordn;
+
+feature pnum {
+# automatic
+sub zero.tf by zero;
+sub one.tf by one;
+sub two.tf by two;
+sub three.tf by three;
+sub four.tf by four;
+sub five.tf by five;
+sub six.tf by six;
+sub seven.tf by seven;
+sub eight.tf by eight;
+sub nine.tf by nine;
+sub period.tf by period;
+sub comma.tf by comma;
+sub colon.tf by colon;
+sub semicolon.tf by semicolon;
+sub exclam.tf by exclam;
+sub question.tf by question;
+sub asterisk.tf by asterisk;
+sub numbersign.tf by numbersign;
+sub slash.tf by slash;
+sub backslash.tf by backslash;
+sub parenleft.tf by parenleft;
+sub parenright.tf by parenright;
+sub braceleft.tf by braceleft;
+sub braceright.tf by braceright;
+sub bracketleft.tf by bracketleft;
+sub bracketright.tf by bracketright;
+sub hyphen.tf by hyphen;
+sub underscore.tf by underscore;
+sub quotedbl.tf by quotedbl;
+sub cent.tf by cent;
+sub currency.tf by currency;
+sub dollar.tf by dollar;
+sub euro.tf by euro;
+sub rupee.tf by rupee;
+sub sterling.tf by sterling;
+sub yen.tf by yen;
+sub plus.tf by plus;
+sub minus.tf by minus;
+sub multiply.tf by multiply;
+sub divide.tf by divide;
+sub equal.tf by equal;
+sub notequal.tf by notequal;
+sub greater.tf by greater;
+sub less.tf by less;
+sub greaterequal.tf by greaterequal;
+sub lessequal.tf by lessequal;
+sub plusminus.tf by plusminus;
+sub approxequal.tf by approxequal;
+sub asciitilde.tf by asciitilde;
+sub asciicircum.tf by asciicircum;
+sub percent.tf by percent;
+
+} pnum;
+
+feature tnum {
+# automatic
+sub zero by zero.tf;
+sub one by one.tf;
+sub two by two.tf;
+sub three by three.tf;
+sub four by four.tf;
+sub five by five.tf;
+sub six by six.tf;
+sub seven by seven.tf;
+sub eight by eight.tf;
+sub nine by nine.tf;
+sub period by period.tf;
+sub comma by comma.tf;
+sub colon by colon.tf;
+sub semicolon by semicolon.tf;
+sub exclam by exclam.tf;
+sub question by question.tf;
+sub asterisk by asterisk.tf;
+sub numbersign by numbersign.tf;
+sub slash by slash.tf;
+sub backslash by backslash.tf;
+sub parenleft by parenleft.tf;
+sub parenright by parenright.tf;
+sub braceleft by braceleft.tf;
+sub braceright by braceright.tf;
+sub bracketleft by bracketleft.tf;
+sub bracketright by bracketright.tf;
+sub hyphen by hyphen.tf;
+sub underscore by underscore.tf;
+sub quotedbl by quotedbl.tf;
+sub cent by cent.tf;
+sub currency by currency.tf;
+sub dollar by dollar.tf;
+sub euro by euro.tf;
+sub rupee by rupee.tf;
+sub sterling by sterling.tf;
+sub yen by yen.tf;
+sub plus by plus.tf;
+sub minus by minus.tf;
+sub multiply by multiply.tf;
+sub divide by divide.tf;
+sub equal by equal.tf;
+sub notequal by notequal.tf;
+sub greater by greater.tf;
+sub less by less.tf;
+sub greaterequal by greaterequal.tf;
+sub lessequal by lessequal.tf;
+sub plusminus by plusminus.tf;
+sub approxequal by approxequal.tf;
+sub asciitilde by asciitilde.tf;
+sub asciicircum by asciicircum.tf;
+sub percent by percent.tf;
+
+} tnum;
+
+feature liga {
+# automatic
+sub f i by fi;
+sub f l by fl;
+
+} liga;
+
+table GDEF {
+  # automatic
+  GlyphClassDef
+    [a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z agrave egrave ograve Agrave Egrave ugrave aacute eacute oacute uacute Aacute Eacute Igrave Iacute Ograve Oacute Ugrave Uacute acircumflex ecircumflex ocircumflex ucircumflex Acircumflex Ecircumflex Icircumflex Ocircumflex Ucircumflex adieresis edieresis odieresis udieresis Adieresis Edieresis Idieresis Odieresis Udieresis igrave iacute icircumflex idieresis atilde ntilde otilde Atilde Ntilde Otilde Abreve Amacron Aogonek Aring Cacute Ccaron Ccedilla Cdotaccent Eth Dcaron Dcroat Ecaron Edotaccent Emacron Eogonek Gbreve Gcommaaccent Gdotaccent Hbar Idotaccent Imacron Iogonek Kcommaaccent Lacute Lcaron Lcommaaccent Lslash Nacute Ncaron Ncommaaccent Eng Ohungarumlaut Omacron Oslash OE Racute Rcaron Rcommaaccent Sacute Scaron Scedilla Scommaaccent Tbar Tcaron Tcedilla Tcommaaccent Uhungarumlaut Umacron Uogonek Uring Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Zacute Zcaron Zdotaccent abreve amacron aogonek aring cacute ccaron ccedilla cdotaccent dcaron dcroat ecaron edotaccent emacron eogonek gbreve gcommaaccent gdotaccent hbar idotless idotaccent imacron iogonek jdotless kcommaaccent lacute lcaron lcommaaccent lslash nacute ncaron ncommaaccent eng ohungarumlaut omacron oslash oe racute rcaron rcommaaccent sacute scaron scedilla scommaaccent tbar tcaron tcedilla tcommaaccent uhungarumlaut umacron uogonek uring wacute wcircumflex wdieresis wgrave yacute ycircumflex ydieresis ygrave zacute zcaron zdotaccent ordfeminine ordmasculine mu cent yen cent.tf yen.tf micro copyright registered trademark], # Base
+    [fi fl], # Liga
+    [dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb commaturnedabovecomb commaaccentcomb cedillacomb ogonekcomb], # Mark
+    ;
+} GDEF;

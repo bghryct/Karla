@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="200" maximum="800" default="200">
+      <map input="200" output="33"/>
+      <map input="300" output="52"/>
+      <map input="400" output="71"/>
+      <map input="500" output="88"/>
+      <map input="700" output="106"/>
+      <map input="800" output="148"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="Karla-ExtraLightItalic.ufo" name="Karla ExtraLight Italic" familyname="Karla" stylename="ExtraLight Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="33"/>
+      </location>
+    </source>
+    <source filename="Karla-ExtraBoldItalic.ufo" name="Karla ExtraBold Italic" familyname="Karla" stylename="ExtraBold Italic">
+      <location>
+        <dimension name="Weight" xvalue="148"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Karla ExtraLight Italic" familyname="Karla" stylename="ExtraLight Italic" filename="../instance_ufo/Karla-ExtraLightItalic.ufo" stylemapfamilyname="Karla ExtraLight" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="33"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Karla Light Italic" familyname="Karla" stylename="Light Italic" filename="../instance_ufo/Karla-LightItalic.ufo" stylemapfamilyname="Karla Light" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="52"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Karla Italic" familyname="Karla" stylename="Italic" filename="../instance_ufo/Karla-Italic.ufo" stylemapfamilyname="Karla" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="71"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Karla Medium Italic" familyname="Karla" stylename="Medium Italic" filename="../instance_ufo/Karla-MediumItalic.ufo" stylemapfamilyname="Karla Medium" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="88"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Karla Bold Italic" familyname="Karla" stylename="Bold Italic" filename="../instance_ufo/Karla-BoldItalic.ufo" stylemapfamilyname="Karla" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Weight" xvalue="106"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Karla ExtraBold Italic" familyname="Karla" stylename="ExtraBold Italic" filename="../instance_ufo/Karla-ExtraBoldItalic.ufo" stylemapfamilyname="Karla ExtraBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="148"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+</designspace>

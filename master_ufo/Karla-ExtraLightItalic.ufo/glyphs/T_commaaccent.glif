@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tcommaaccent" format="2">
+  <advance width="841"/>
+  <unicode hex="021A"/>
+  <anchor x="424" y="-345" name="bottom"/>
+  <anchor x="440" y="608" name="center"/>
+  <anchor x="526" y="1215" name="top"/>
+  <outline>
+    <component base="T"/>
+    <component base="commaaccentcomb" xOffset="329"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/03 18:40:43</string>
+    </dict>
+  </lib>
+</glyph>

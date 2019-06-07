@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ecircumflex" format="2">
+  <advance width="966"/>
+  <unicode hex="00CA"/>
+  <anchor x="530" y="1270" name="above"/>
+  <anchor x="547" y="0" name="bottom"/>
+  <anchor x="544" y="30" name="ogonek"/>
+  <anchor x="611" y="1654" name="top"/>
+  <anchor x="125" y="1215" name="topleft"/>
+  <outline>
+    <component base="E"/>
+    <component base="circumflexcomb" xOffset="89" yOffset="276"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/03 18:31:35</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tbar" format="2">
+  <advance width="751"/>
+  <unicode hex="0167"/>
+  <anchor x="516" y="0" name="bottom"/>
+  <anchor x="376" y="496" name="center"/>
+  <anchor x="422.17376" y="681.8155999999999" name="top"/>
+  <anchor x="801" y="991" name="topright"/>
+  <outline>
+    <component base="t"/>
+    <component base="macroncomb" xScale="0.80216" yScale="0.8227" xOffset="-88" yOffset="-493"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/03 18:54:28</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>
