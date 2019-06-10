@@ -38,6 +38,33 @@ done
 
 ## This functions correctly now. 
 
+# gftools add-font --update ofl/karla # do this the first time, then edit and copy (Ask Stephen why doesn't this flag work?)
 
 
+cp /Users/mirkovelimirovic/Documents/GitHub/Karla/fonts/METADATA.pb /Users/mirkovelimirovic/Documents/GitHub/fonts/ofl/karla/METADATA.pb
 
+# cp $interDir/LICENSE.txt ofl/inter/OFL.txt
+cp /Users/mirkovelimirovic/Documents/GitHub/Karla/fonts/OFL.txt  /Users/mirkovelimirovic/Documents/GitHub/fonts/ofl/karla/OFL.txt
+
+cp /Users/mirkovelimirovic/Documents/GitHub/Karla/fonts/DESCRIPTION.en_us.html  /Users/mirkovelimirovic/Documents/GitHub/fonts/ofl/karla/DESCRIPTION.en_us.html
+# cp $interQADir/gfonts-description.html ofl/inter/DESCRIPTION.en_us.html
+
+rm -rf /Users/mirkovelimirovic/Documents/GitHub/fonts/ofl/karla/*ttf
+
+# # -------------------------------------------------------------------
+# # run checks, saving to inter/misc/googlefonts-qa/checks ------------
+
+# set +e # otherwise, the script stops after the first fontbakery check output
+
+# mkdir -p $interQADir/checks/static
+
+# cd ofl/inter
+
+# ttfs=$(ls -R */*.ttf && ls *.ttf) # use this to statics and VFs
+# # ttfs=$(ls *.ttf) # use this to check only the VFs
+# # ttfs=$(ls -R */*.ttf ) # use this to check only statics
+
+# for ttf in $ttfs
+# do
+#     fontbakery check-googlefonts $ttf --ghmarkdown $interQADir/checks/${ttf/".ttf"/".checks.md"}
+# done

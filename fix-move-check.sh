@@ -1,27 +1,13 @@
 #!/bin/bash
 
-# This script copies the latest builds to the google fonts dir in order to run QA checks and prep for a PR
+# This script attempts to fix fails brought by FontBakery on Karla-Italic-VF.ttf
 #
 # USAGE: 
 # Install requirements with `pip install -U -r misc/googlefonts-qa/requirements.txt`
-# 
-# after  `make -j all_ttf`
-# call this script from the root of your inter repo, with the absolute path your google/fonts repo
-# `misc/googlefonts-qa/move-check.sh <your_username>/<path>/fonts`
 
 # set -e
 # source venv/bin/activate
 
-# gFontsDir=$1
-# if [[ -z "$gFontsDir" || $gFontsDir = "--help" ]] ; then
-#     echo 'Add absolute path to your Google Fonts Git directory, like:'
-#     echo 'misc/googlefonts-qa/move-check.sh /Users/username/type-repos/google-font-repos/fonts'
-#     exit 2
-# fi
-
-# interDir=$(pwd)
-
-# interQADir=$interDir/misc/googlefonts-qa
 
 KarlaRVF=./fonts/variable/Karla-Roman-VF.ttf
 KarlaIVF=./fonts/variable/Karla-Italic-VF.ttf
@@ -75,12 +61,12 @@ echo "all should be well in the land"
 # # -------------------------------------------------------------------
 # # navigate to google/fonts repo, get latest, then update inter branch
 
-# cd $gFontsDir
-# git checkout master
-# git pull upstream master
-# git reset --hard
-# git checkout -B inter
-# git clean -f -d
+cd $gFontsDir
+git checkout master
+git pull upstream master
+git reset --hard
+git checkout -B Karla
+git clean -f -d
 
 # # -------------------------------------------------------------------
 # # move fonts --------------------------------------------------------
@@ -100,13 +86,13 @@ echo "all should be well in the land"
 # # -------------------------------------------------------------------
 # # make or move basic metadata ---------------------------------------
 
-# # gftools add-font --update ofl/inter # do this the first time, then edit and copy
+gftools add-font --update ofl/inter # do this the first time, then edit and copy
 
-# cp $interQADir/METADATA.pb ofl/inter/METADATA.pb
+cp $interQADir/METADATA.pb ofl/inter/METADATA.pb
 
-# cp $interDir/LICENSE.txt ofl/inter/OFL.txt
+cp $interDir/LICENSE.txt ofl/inter/OFL.txt
 
-# cp $interQADir/gfonts-description.html ofl/inter/DESCRIPTION.en_us.html
+cp $interQADir/gfonts-description.html ofl/inter/DESCRIPTION.en_us.html
 
 # # -------------------------------------------------------------------
 # # run checks, saving to inter/misc/googlefonts-qa/checks ------------
