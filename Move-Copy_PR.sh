@@ -16,7 +16,7 @@ git reset --hard
 git checkout -B Karla
 git clean -f -d
 
-
+cd ../karla
 # # -------------------------------------------------------------------
 # # move fonts --------------------------------------------------------
 
@@ -28,8 +28,16 @@ cp $KarlaRVF /Users/mirkovelimirovic/Documents/GitHub/fonts/ofl/karla/variable/K
 
 mkdir ../fonts/ofl/karla/static
 
-statics=$(ls /build/fonts/const-hinted/*.ttf)
+statics=./fonts/ttf/*.ttf
+
+
 for ttf in $statics
 do
-    cp $ttf ofl/karla/static/$(basename $ttf)
+    cp $ttf /Users/mirkovelimirovic/Documents/GitHub/fonts/ofl/karla/static/$(basename $ttf)
 done
+
+## This functions correctly now. 
+
+
+
+
