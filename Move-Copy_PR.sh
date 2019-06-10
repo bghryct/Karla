@@ -71,5 +71,3 @@ rm -rf /Users/mirkovelimirovic/Documents/GitHub/fonts/ofl/karla/*ttf
 # do
 #     fontbakery check-googlefonts $ttf --ghmarkdown $interQADir/checks/${ttf/".ttf"/".checks.md"}
 # done
-
-

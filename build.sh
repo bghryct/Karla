@@ -78,6 +78,10 @@ done
 echo "Post processing complete"
 
 
+
+cp /Users/mirkovelimirovic/Documents/GitHub/Karla/fonts/OFL.txt /Users/mirkovelimirovic/Documents/GitHub/Karla/fonts/ttf/OFL.txt
+cp /Users/mirkovelimirovic/Documents/GitHub/Karla/fonts/OFL.txt /Users/mirkovelimirovic/Documents/GitHub/Karla/fonts/variable/OFL.txt
+
 # echo "fixing name-ids"
 # gftools fix-nameids $vfs;
 # for vf in $vfs 
