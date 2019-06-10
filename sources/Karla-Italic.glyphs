@@ -1,7 +1,8 @@
 {
 .appVersion = "1230";
 DisplayStrings = (
-"O/OE"
+"O/OE",
+"/six.tf H"
 );
 classes = (
 {
