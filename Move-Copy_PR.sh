@@ -24,9 +24,12 @@ mkdir ../fonts/ofl/karla/variable
 
 cp $KarlaIVF /Users/mirkovelimirovic/Documents/GitHub/fonts/ofl/karla/variable/Karla-Italic-VF.ttf   
 cp $KarlaRVF /Users/mirkovelimirovic/Documents/GitHub/fonts/ofl/karla/variable/Karla-Roman-VF.ttf   
+cp /Users/mirkovelimirovic/Documents/GitHub/Karla/fonts/variable/OFL.txt /Users/mirkovelimirovic/Documents/GitHub/fonts/ofl/karla/variable/OFL.txt  
 
 
 mkdir ../fonts/ofl/karla/static
+
+cp /Users/mirkovelimirovic/Documents/GitHub/Karla/fonts/ttf/OFL.txt /Users/mirkovelimirovic/Documents/GitHub/fonts/ofl/karla/static/OFL.txt  
 
 statics=./fonts/ttf/*.ttf
 
@@ -54,17 +57,17 @@ rm -rf /Users/mirkovelimirovic/Documents/GitHub/fonts/ofl/karla/*ttf
 # # -------------------------------------------------------------------
 # # run checks, saving to inter/misc/googlefonts-qa/checks ------------
 
-# set +e # otherwise, the script stops after the first fontbakery check output
+set +e # otherwise, the script stops after the first fontbakery check output
 
-# mkdir -p $interQADir/checks/static
+mkdir -p ./checks/static
 
-# cd ofl/inter
+cd /Users/mirkovelimirovic/Documents/GitHub/fonts/ofl/karla
 
-# ttfs=$(ls -R */*.ttf && ls *.ttf) # use this to statics and VFs
-# # ttfs=$(ls *.ttf) # use this to check only the VFs
-# # ttfs=$(ls -R */*.ttf ) # use this to check only statics
+ttfs=$(ls -R */*.ttf && ls *.ttf) # use this to statics and VFs
+# ttfs=$(ls *.ttf) # use this to check only the VFs
+# ttfs=$(ls -R */*.ttf ) # use this to check only statics
 
-# for ttf in $ttfs
-# do
-#     fontbakery check-googlefonts $ttf --ghmarkdown $interQADir/checks/${ttf/".ttf"/".checks.md"}
-# done
+for ttf in $ttfs
+do
+    fontbakery check-googlefonts $ttf --ghmarkdown $interQADir/checks/${ttf/".ttf"/".checks.md"}
+done
