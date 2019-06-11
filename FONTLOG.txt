@@ -20,6 +20,9 @@ To contribute to Karla contact Jonathan Pinhorn:
 @jonpinhorn_type
 
 ChangeLog
+11 June 2019 (Mirko Velimirovic)
+-Added Tabular figures, Made variable fonts, Re-Mapped stem weights to match 
+Currently hosted Karla on Google Fonts. 
 
 11 December 2018 (Thomas Linard)
 - Improvement of directory structure.
