@@ -2,7 +2,8 @@
 .appVersion = "1230";
 DisplayStrings = (
 "O/OE",
-"/six.tf H"
+"/six.tf H",
+"/bullet Here's my Bullet"
 );
 classes = (
 {
@@ -19372,7 +19373,7 @@ width = 1160;
 },
 {
 glyphname = zero.numr;
-lastChange = "2019-06-06 19:30:06 +0000";
+lastChange = "2019-06-11 19:45:46 +0000";
 layers = (
 {
 components = (
@@ -19428,7 +19429,7 @@ rightMetricsKey = one.dnom;
 },
 {
 glyphname = two.numr;
-lastChange = "2019-06-06 19:30:06 +0000";
+lastChange = "2019-06-11 19:45:46 +0000";
 layers = (
 {
 components = (
@@ -19456,7 +19457,7 @@ rightMetricsKey = two.dnom;
 },
 {
 glyphname = three.numr;
-lastChange = "2019-06-06 19:29:59 +0000";
+lastChange = "2019-06-10 20:08:38 +0000";
 layers = (
 {
 components = (
@@ -19484,7 +19485,7 @@ rightMetricsKey = three.dnom;
 },
 {
 glyphname = four.numr;
-lastChange = "2019-06-06 19:30:06 +0000";
+lastChange = "2019-06-11 19:45:46 +0000";
 layers = (
 {
 components = (
@@ -19512,7 +19513,7 @@ rightMetricsKey = four.dnom;
 },
 {
 glyphname = five.numr;
-lastChange = "2019-06-06 19:30:06 +0000";
+lastChange = "2019-06-11 19:45:46 +0000";
 layers = (
 {
 components = (
@@ -19540,7 +19541,7 @@ rightMetricsKey = five.dnom;
 },
 {
 glyphname = six.numr;
-lastChange = "2019-06-06 19:30:06 +0000";
+lastChange = "2019-06-11 19:45:46 +0000";
 layers = (
 {
 components = (
@@ -19568,7 +19569,7 @@ rightMetricsKey = six.dnom;
 },
 {
 glyphname = seven.numr;
-lastChange = "2019-06-06 19:30:06 +0000";
+lastChange = "2019-06-11 19:45:46 +0000";
 layers = (
 {
 components = (
@@ -19596,7 +19597,7 @@ rightMetricsKey = seven.dnom;
 },
 {
 glyphname = eight.numr;
-lastChange = "2019-06-06 19:29:59 +0000";
+lastChange = "2019-06-10 20:08:38 +0000";
 layers = (
 {
 components = (
@@ -19624,7 +19625,7 @@ rightMetricsKey = eight.dnom;
 },
 {
 glyphname = nine.numr;
-lastChange = "2019-06-06 19:30:06 +0000";
+lastChange = "2019-06-11 19:45:46 +0000";
 layers = (
 {
 components = (
@@ -20456,31 +20457,56 @@ unicode = 00B7;
 },
 {
 glyphname = bullet;
-lastChange = "2019-05-28 19:02:52 +0000";
+lastChange = "2019-06-10 20:08:53 +0000";
 layers = (
 {
-components = (
+layerId = "AD226DB4-BE97-401A-8A1F-FC26A063DFB1";
+paths = (
 {
-name = periodcentered;
-transform = "{1.95312, 0, 0, 1.95312, -131, -497}";
+closed = 1;
+nodes = (
+"308 396 OFFCURVE",
+"359 464 OFFCURVE",
+"367 524 CURVE SMOOTH",
+"377 597 OFFCURVE",
+"330 646 OFFCURVE",
+"265 646 CURVE SMOOTH",
+"195 646 OFFCURVE",
+"144 591 OFFCURVE",
+"137 524 CURVE SMOOTH",
+"130 460 OFFCURVE",
+"166 396 OFFCURVE",
+"236 396 CURVE SMOOTH"
+);
 }
 );
-layerId = "AD226DB4-BE97-401A-8A1F-FC26A063DFB1";
 width = 365;
 },
 {
-components = (
+layerId = "2146CDF3-509B-498B-BCC4-8BA41979C9D7";
+paths = (
 {
-name = periodcentered;
-transform = "{1.5625, 0, 0, 1.5625, -59, -351}";
+closed = 1;
+nodes = (
+"565 293 OFFCURVE",
+"722 422 OFFCURVE",
+"737 624 CURVE SMOOTH",
+"751 817 OFFCURVE",
+"629 955 OFFCURVE",
+"451 955 CURVE SMOOTH",
+"265 955 OFFCURVE",
+"126 805 OFFCURVE",
+"106 624 CURVE SMOOTH",
+"84 429 OFFCURVE",
+"207 293 OFFCURVE",
+"388 293 CURVE SMOOTH"
+);
 }
 );
-layerId = "2146CDF3-509B-498B-BCC4-8BA41979C9D7";
-width = 691;
+width = 726;
 }
 );
 leftMetricsKey = period;
-rightMetricsKey = period;
 unicode = 2022;
 },
 {

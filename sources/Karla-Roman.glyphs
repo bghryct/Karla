@@ -1,19 +1,5 @@
 {
 .appVersion = "1230";
-DisplayStrings = (
-"¢¤/euro/florin/rupee ¥/cent.tf/currency.tf/dollar.tf/euro.tf/rupee.tf/sterling.tf/yen.tf ×÷/notequal/greaterequal/lessequal ±/approxequal ¬/infinity/emptyset/integral/product/summation/radical µ/partialdiff/perthousand/plus.tf/minus.tf/multiply.tf/divide.tf/equal.tf/notequal.tf/greater.tf/less.tf/greaterequal.tf/lessequal.tf/plusminus.tf/approxequal.tf/asciitilde.tf/asciicircum.tf/percent.tf/lozenge ¶§©®/trademark °¦/dagger/daggerdbl",
-"´/circumflex",
-"/DivisionSlash",
-"/ogonek",
-"\015",
-f,
-"/Rupee",
-"/Rupee",
-"12.346\012/one.tf/two.tf/period.tf/three.tf/four.tf/six.tf",
-"/period.tf/comma.tf ,/colon.tf/semicolon.tf/exclam.tf/question.tf ?/asterisk.tf */numbersign.tf/slash.tf/backslash.tf/parenleft.tf/parenright.tf )/braceleft.tf/braceright.tf/bracketleft.tf/bracketright.tf ­/hyphen.tf -/underscore.tf/quotedbl.tf",
-"/OE",
-"/bullet Here's my Bullet and Pilcrow¶"
-);
 classes = (
 {
 automatic = 1;
@@ -14079,19 +14065,9 @@ unicode = 00F0;
 },
 {
 glyphname = dcaron;
-lastChange = "2019-06-03 14:59:38 +0000";
+lastChange = "2019-06-10 20:13:43 +0000";
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-position = "{571, 0}";
-},
-{
-name = bottom;
-position = "{571, -424}";
-}
-);
 components = (
 {
 name = d;
@@ -14102,17 +14078,17 @@ paths = (
 {
 closed = 1;
 nodes = (
-"1148 1096 OFFCURVE",
-"1187 1178 OFFCURVE",
-"1187 1252 CURVE SMOOTH",
-"1187 1313 OFFCURVE",
-"1141 1361 OFFCURVE",
-"1089 1361 CURVE SMOOTH",
+"1146 1094 OFFCURVE",
+"1187 1180 OFFCURVE",
+"1187 1246 CURVE SMOOTH",
+"1187 1319 OFFCURVE",
+"1138 1361 OFFCURVE",
+"1090 1361 CURVE SMOOTH",
 "1046 1361 OFFCURVE",
-"1018 1326 OFFCURVE",
-"1018 1290 CURVE SMOOTH",
-"1018 1245 OFFCURVE",
-"1055 1217 OFFCURVE",
+"1018 1327 OFFCURVE",
+"1018 1289 CURVE SMOOTH",
+"1018 1248 OFFCURVE",
+"1052 1217 OFFCURVE",
 "1103 1219 CURVE",
 "1092 1148 OFFCURVE",
 "1048 1111 OFFCURVE",
@@ -14121,19 +14097,9 @@ nodes = (
 );
 }
 );
-width = 1259;
+width = 1241;
 },
 {
-anchors = (
-{
-name = _bottom;
-position = "{1337, 1480}";
-},
-{
-name = bottom;
-position = "{1337, 1151}";
-}
-);
 components = (
 {
 name = d;
@@ -14163,7 +14129,7 @@ nodes = (
 );
 }
 );
-width = 1513;
+width = 1483;
 }
 );
 rightMetricsKey = comma;
@@ -20267,7 +20233,7 @@ unicode = 2044;
 },
 {
 glyphname = onehalf;
-lastChange = "2019-06-04 17:25:26 +0000";
+lastChange = "2019-06-11 19:45:49 +0000";
 layers = (
 {
 components = (
@@ -20310,7 +20276,7 @@ unicode = 00BD;
 },
 {
 glyphname = onequarter;
-lastChange = "2019-06-04 17:25:26 +0000";
+lastChange = "2019-06-11 19:45:49 +0000";
 layers = (
 {
 components = (
@@ -20353,7 +20319,7 @@ unicode = 00BC;
 },
 {
 glyphname = threequarters;
-lastChange = "2019-06-04 17:25:26 +0000";
+lastChange = "2019-06-11 19:45:49 +0000";
 layers = (
 {
 components = (
@@ -20396,7 +20362,7 @@ unicode = 00BE;
 },
 {
 glyphname = oneeighth;
-lastChange = "2019-06-04 17:25:26 +0000";
+lastChange = "2019-06-11 19:45:49 +0000";
 layers = (
 {
 components = (
@@ -20439,7 +20405,7 @@ unicode = 215B;
 },
 {
 glyphname = threeeighths;
-lastChange = "2019-06-04 17:25:26 +0000";
+lastChange = "2019-06-11 19:45:49 +0000";
 layers = (
 {
 components = (
@@ -20482,7 +20448,7 @@ unicode = 215C;
 },
 {
 glyphname = fiveeighths;
-lastChange = "2019-06-04 17:25:26 +0000";
+lastChange = "2019-06-11 19:45:49 +0000";
 layers = (
 {
 components = (
@@ -20525,7 +20491,7 @@ unicode = 215D;
 },
 {
 glyphname = seveneighths;
-lastChange = "2019-06-04 17:25:26 +0000";
+lastChange = "2019-06-11 19:45:49 +0000";
 layers = (
 {
 components = (
