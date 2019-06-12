@@ -1,10 +1,5 @@
 {
 .appVersion = "1230";
-DisplayStrings = (
-"O/OE",
-"/six.tf H",
-"/bullet Here's my Bullet"
-);
 classes = (
 {
 automatic = 1;
@@ -26906,12 +26901,6 @@ unicode = 02DA;
 );
 instances = (
 {
-customParameters = (
-{
-name = weightClass;
-value = 275;
-}
-);
 interpolationWeight = 33;
 instanceInterpolations = {
 "AD226DB4-BE97-401A-8A1F-FC26A063DFB1" = 1;
