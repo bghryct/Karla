@@ -1,7 +1,8 @@
 {
 .appVersion = "1230";
 DisplayStrings = (
-",/trademark"
+",/trademark",
+"/trademark"
 );
 classes = (
 {
@@ -29160,23 +29161,9 @@ unicode = 00AE;
 },
 {
 glyphname = trademark;
-lastChange = "2019-06-24 19:06:31 +0000";
+lastChange = "2019-06-24 19:09:27 +0000";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{878.5, 942}";
-},
-{
-name = center;
-position = "{234.5, 1245.5}";
-},
-{
-name = top;
-position = "{878.5, 1548.5}";
-}
-);
 layerId = "CE2138A5-93BA-4A69-8B69-7D34CC27D2DF";
 paths = (
 {
@@ -29219,20 +29206,6 @@ nodes = (
 width = 1288;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{1016, 989}";
-},
-{
-name = center;
-position = "{282, 1324.5}";
-},
-{
-name = top;
-position = "{1016, 1660}";
-}
-);
 layerId = "54E4F05E-05D2-4398-A473-3C5492C75DBF";
 paths = (
 {
