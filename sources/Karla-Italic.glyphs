@@ -5,7 +5,8 @@ DisplayStrings = (
 equipment,
 "/Rupee/rupee/rupee.tf",
 "ld/apostrophe 'accord",
-"/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf/zeroinferior/oneinferior/twoinferior/threeinferior/fourinferior/fiveinferior/sixinferior/seveninferior/eightinferior/nineinferior/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom/zero.numr/one.numr/two.numr/three.numr/four.numr/five.numr/six.numr/seven.numr/eight.numr/nine.numr/zerosuperior ¹²³/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/ninesuperior/fraction ½¼¾/oneeighth/threeeighths/fiveeighths/seveneighths"
+"/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf/zeroinferior/oneinferior/twoinferior/threeinferior/fourinferior/fiveinferior/sixinferior/seveninferior/eightinferior/nineinferior/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom/zero.numr/one.numr/two.numr/three.numr/four.numr/five.numr/six.numr/seven.numr/eight.numr/nine.numr/zerosuperior ¹²³/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/ninesuperior/fraction ½¼¾/oneeighth/threeeighths/fiveeighths/seveneighths",
+"/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf/zeroinferior/oneinferior/twoinferior/threeinferior/fourinferior/fiveinferior/sixinferior/seveninferior/eightinferior/nineinferior/zero.dnom/one.dnom/two.dnom/three.dnom/four.dnom/five.dnom/six.dnom/seven.dnom/eight.dnom/nine.dnom/zero.numr/one.numr/two.numr/three.numr/four.numr/five.numr/six.numr/seven.numr/eight.numr/nine.numr/zerosuperior ¹²³/foursuperior/fivesuperior/sixsuperior/sevensuperior/eightsuperior/ninesuperior/fraction ½/fraction ¼¾/oneeighth/threeeighths/fiveeighths/seveneighths"
 );
 classes = (
 {
@@ -19893,13 +19894,13 @@ unicode = 2079;
 },
 {
 glyphname = fraction;
-lastChange = "2019-06-24 16:16:21 +0000";
+lastChange = "2019-06-24 16:42:33 +0000";
 layers = (
 {
 components = (
 {
 name = slash;
-transform = "{1, 0, 0.36299, 0.86516, -516, 112}";
+transform = "{0.88745, 0, 0.21476, 0.86516, -403, 112}";
 }
 );
 layerId = "AD226DB4-BE97-401A-8A1F-FC26A063DFB1";
@@ -20135,28 +20136,24 @@ unicode = 215C;
 },
 {
 glyphname = fiveeighths;
-lastChange = "2019-06-24 16:11:27 +0000";
+lastChange = "2019-06-24 16:43:39 +0000";
 layers = (
 {
 components = (
 {
-alignment = -1;
 name = five.numr;
-transform = "{1, 0, 0, 1, 30, 0}";
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 883, 0}";
+transform = "{1, 0, 0, 1, 880, 0}";
 },
 {
-alignment = -1;
 name = eight.dnom;
-transform = "{1, 0, 0, 1, 895, 0}";
+transform = "{1, 0, 0, 1, 1109, 0}";
 }
 );
 layerId = "AD226DB4-BE97-401A-8A1F-FC26A063DFB1";
-width = 1720;
+width = 1989;
 },
 {
 components = (
@@ -20186,28 +20183,24 @@ unicode = 215D;
 },
 {
 glyphname = seveneighths;
-lastChange = "2019-06-24 16:11:27 +0000";
+lastChange = "2019-06-24 16:43:26 +0000";
 layers = (
 {
 components = (
 {
-alignment = -1;
 name = seven.numr;
-transform = "{1, 0, 0, 1, 7, 0}";
 },
 {
-alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 746, 0}";
+transform = "{1, 0, 0, 1, 880, 0}";
 },
 {
-alignment = -1;
 name = eight.dnom;
-transform = "{1, 0, 0, 1, 881, 0}";
+transform = "{1, 0, 0, 1, 1109, 0}";
 }
 );
 layerId = "AD226DB4-BE97-401A-8A1F-FC26A063DFB1";
-width = 1706;
+width = 1989;
 },
 {
 components = (
