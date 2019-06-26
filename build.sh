@@ -28,8 +28,8 @@ echo "Made Italic ttfs"
 
 echo "Generating VFs"
 # mkdir -p ./fonts/variable
-fontmake -g sources/Karla.glyphs -o variable --round-instances --output-path ./fonts/variable/Karla\[wght\].ttf
-fontmake -g sources/Karla-Italic.glyphs -o variable --round-instances --output-path ./fonts/variable/Karla-Italic\[wght\].ttf
+fontmake -g sources/Karla.glyphs -o variable --round-instances --output-path ./fonts/variable/Karla.ttf
+fontmake -g sources/Karla-Italic.glyphs -o variable --round-instances --output-path ./fonts/variable/Karla-Italic.ttf
 
 echo "Removing Build UFOS"
 
@@ -79,3 +79,8 @@ echo "Post processing complete"
 
 cp /Users/mirkovelimirovic/Documents/GitHub/Karla/fonts/OFL.txt /Users/mirkovelimirovic/Documents/GitHub/Karla/fonts/ttf/OFL.txt
 cp /Users/mirkovelimirovic/Documents/GitHub/Karla/fonts/OFL.txt /Users/mirkovelimirovic/Documents/GitHub/Karla/fonts/variable/OFL.txt
+
+
+##This is just to rename Variable Fonts for our naming convention as it's a broken check atm
+# mv ./fonts/variable/Karla.ttf ./fonts/variable/Karla\[wght\].ttf
+# mv ./fonts/variable/Karla-Italic.ttf ./fonts/variable/Karla-Italic\[wght\].ttf

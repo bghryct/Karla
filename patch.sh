@@ -7,18 +7,18 @@
 echo "name table patch begin"
 # copies the 'name' table patch into the variable outputs folder
 cp ./patch/Karla-Italic-VF.ttx ./fonts/variable/Karla-Italic-VF.ttx
-
+echo "copy done"
 # change dir to variable fonts directory
 cd fonts/variable/
 
 # Merge the patch into the fontmake version of Karla-Italic-VF.ttf
-ttx -m Karla-Italic-VF.ttf Karla-Italic-VF.ttx
+ttx -m Karla-Italic.ttf Karla-Italic-VF.ttx
 
 # Remove the rotten file
-rm -rf Karla-Italic-VF.ttf
+rm -rf Karla-Italic.ttf
 
 # Rename the corrected file
-mv Karla-Italic-VF#1.ttf Karla-Italic-VF.ttf  
+mv Karla-Italic-VF.ttf Karla-Italic.ttf  
 
 # Remove the patch file
 rm -rf Karla-Italic-VF.ttx
@@ -26,20 +26,25 @@ rm -rf Karla-Italic-VF.ttx
 echo "name table patch complete"
 echo "os/2 table patch begin"
 
-# copies the 'OS_2' table patch into the variable outputs folder
-cp ./patch/Karla-Italic-VF-OS_2.ttx ./fonts/variable/Karla-Italic-VF-OS_2.ttx
+cd ..
+cd ..
 
+# copies the 'OS_2' table patch into the variable outputs folder
+cp ./patch/Karla-Italic_OS2.ttx ./fonts/variable/Karla-Italic_OS2.ttx
+
+# change dir to variable fonts directory
+cd fonts/variable
 # Merge the 'OS_2' patch into the fontmake version of Karla-Italic-VF.ttf
-ttx -m Karla-Italic-VF.ttf Karla-Italic-VF-OS_2.ttx
+ttx -m Karla-Italic.ttf Karla-Italic_OS2.ttx
 
 # Remove the rotten file
-rm -rf Karla-Italic-VF.ttf
+rm -rf Karla-Italic.ttf
 
 # Rename the corrected file
-mv Karla-Italic-VF-OS_2.ttf Karla-Italic-VF.ttf
+mv Karla-Italic_OS2.ttf Karla-Italic.ttf
 
 # Remove the patch file
-rm -rf Karla-Italic-VF-OS_2.ttx 
+rm -rf Karla-Italic_OS2.ttx
 
 echo "os/2 table patch complete"
 echo "You should now be left with a clean variable directory"
