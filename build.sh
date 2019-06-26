@@ -16,7 +16,7 @@ mkdir -p ./fonts/ttf
 mkdir -p ./fonts/variable
 
 echo "Made font directories"
-fontmake -g sources/Karla-Roman.glyphs -i --round-instances -o ttf --output-dir ./fonts/ttf/ 
+fontmake -g sources/Karla.glyphs -i --round-instances -o ttf --output-dir ./fonts/ttf/ 
 echo "Made Roman ttfs"
 fontmake -g sources/Karla-Italic.glyphs -i --round-instances -o ttf --output-dir ./fonts/ttf/
 echo "Made Italic ttfs"
@@ -28,7 +28,7 @@ echo "Made Italic ttfs"
 
 echo "Generating VFs"
 # mkdir -p ./fonts/variable
-fontmake -g sources/Karla-Roman.glyphs -o variable --round-instances --output-path ./fonts/variable/Karla\[wght\].ttf
+fontmake -g sources/Karla.glyphs -o variable --round-instances --output-path ./fonts/variable/Karla\[wght\].ttf
 fontmake -g sources/Karla-Italic.glyphs -o variable --round-instances --output-path ./fonts/variable/Karla-Italic\[wght\].ttf
 
 echo "Removing Build UFOS"

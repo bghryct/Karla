@@ -6,7 +6,7 @@
 # I am unsure why this fix is necessary as fontmake should just output the correct name table from the glyphs source
 echo "name table patch begin"
 # copies the 'name' table patch into the variable outputs folder
-cp /Users/mirkovelimirovic/Documents/GitHub/Karla/patch/Karla-Italic-VF.ttx /Users/mirkovelimirovic/Documents/GitHub/Karla/fonts/variable/Karla-Italic-VF.ttx
+cp ./patch/Karla-Italic-VF.ttx ./fonts/variable/Karla-Italic-VF.ttx
 
 # change dir to variable fonts directory
 cd fonts/variable/
@@ -27,7 +27,7 @@ echo "name table patch complete"
 echo "os/2 table patch begin"
 
 # copies the 'OS_2' table patch into the variable outputs folder
-cp /Users/mirkovelimirovic/Documents/GitHub/Karla/patch/Karla-Italic-VF-OS_2.ttx /Users/mirkovelimirovic/Documents/GitHub/Karla/fonts/variable/Karla-Italic-VF-OS_2.ttx
+cp ./patch/Karla-Italic-VF-OS_2.ttx ./fonts/variable/Karla-Italic-VF-OS_2.ttx
 
 # Merge the 'OS_2' patch into the fontmake version of Karla-Italic-VF.ttf
 ttx -m Karla-Italic-VF.ttf Karla-Italic-VF-OS_2.ttx
@@ -43,3 +43,8 @@ rm -rf Karla-Italic-VF-OS_2.ttx
 
 echo "os/2 table patch complete"
 echo "You should now be left with a clean variable directory"
+
+
+echo "os/2 table static patch begin"
+
+
