@@ -1,8 +1,8 @@
 #!/bin/sh
 
 
-KarlaRVF=./fonts/variable/Karla-Roman-VF.ttf
-KarlaIVF=./fonts/variable/Karla-Italic-VF.ttf
+KarlaRVF=./fonts/variable/Karla.ttf
+KarlaIVF=./fonts/variable/Karla-Italic.ttf
 
 # this is a small script that should be included in a more correct build script at the end. 
 # For the purposes of breaking it down into understandable steps I've included just these steps here
@@ -22,8 +22,8 @@ cd ../karla
 
 mkdir ../fonts/ofl/karla/variable
 
-cp $KarlaIVF /Users/mirkovelimirovic/Documents/GitHub/fonts/ofl/karla/variable/Karla-Italic-VF.ttf   
-cp $KarlaRVF /Users/mirkovelimirovic/Documents/GitHub/fonts/ofl/karla/variable/Karla-Roman-VF.ttf   
+cp $KarlaIVF /Users/mirkovelimirovic/Documents/GitHub/fonts/ofl/karla/variable/Karla-Italic.ttf   
+cp $KarlaRVF /Users/mirkovelimirovic/Documents/GitHub/fonts/ofl/karla/variable/Karla.ttf   
 cp /Users/mirkovelimirovic/Documents/GitHub/Karla/fonts/variable/OFL.txt /Users/mirkovelimirovic/Documents/GitHub/fonts/ofl/karla/variable/OFL.txt  
 
 
@@ -42,7 +42,6 @@ done
 ## This functions correctly now. 
 
 # gftools add-font --update ofl/karla # do this the first time, then edit and copy (Ask Stephen why doesn't this flag work?)
-
 
 cp /Users/mirkovelimirovic/Documents/GitHub/Karla/fonts/METADATA.pb /Users/mirkovelimirovic/Documents/GitHub/fonts/ofl/karla/METADATA.pb
 
