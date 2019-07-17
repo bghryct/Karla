@@ -13,7 +13,7 @@ cd ../fonts/
 git checkout master
 git pull upstream master
 git reset --hard
-git checkout -B Karla
+git checkout -B karla
 git clean -f -d
 
 cd ../karla
