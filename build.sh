@@ -12,13 +12,13 @@ set -e
 
 echo "Generating Static fonts"
 
-mkdir -p ./fonts/ttf
+mkdir -p ./fonts/static
 mkdir -p ./fonts/variable
 
 echo "Made font directories"
-fontmake -g sources/Karla.glyphs -i --round-instances -o ttf --output-dir ./fonts/ttf/ 
+fontmake -g source/Karla.glyphs -i --round-instances -o ttf --output-dir ./fonts/static/ 
 echo "Made Roman ttfs"
-fontmake -g sources/Karla-Italic.glyphs -i --round-instances -o ttf --output-dir ./fonts/ttf/
+fontmake -g source/Karla-Italic.glyphs -i --round-instances -o ttf --output-dir ./fonts/static/
 echo "Made Italic ttfs"
 
 # fontmake -g sources/Karla-Roman.glyphs -i -o otf --output-dir ./fonts/otf/
@@ -28,8 +28,8 @@ echo "Made Italic ttfs"
 
 echo "Generating VFs"
 # mkdir -p ./fonts/variable
-fontmake -g sources/Karla.glyphs -o variable --round-instances --output-path ./fonts/variable/Karla.ttf
-fontmake -g sources/Karla-Italic.glyphs -o variable --round-instances --output-path ./fonts/variable/Karla-Italic.ttf
+fontmake -g source/Karla.glyphs -o variable --round-instances --output-path ./fonts/variable/Karla.ttf
+fontmake -g source/Karla-Italic.glyphs -o variable --round-instances --output-path ./fonts/variable/Karla-Italic.ttf
 
 echo "Removing Build UFOS"
 
@@ -39,7 +39,7 @@ echo "Build UFOS Removed"
 
 echo "Post processing"
 
-ttfs=$(ls fonts/ttf/*.ttf)
+ttfs=$(ls fonts/static/*.ttf)
 echo $ttfs
 for ttf in $ttfs
 do
@@ -49,7 +49,7 @@ do
 done
 echo "fixed nonhinting ttfs as well as DSIG"
 
-rm ./fonts/ttf/*backup*.ttf
+rm ./fonts/static/*backup*.ttf
 
 vfs=$(ls ./fonts/variable/*.ttf)
 for vf in $vfs
@@ -75,12 +75,5 @@ done
 
 echo "Post processing complete"
 
-
-
-cp /Users/mirkovelimirovic/Documents/GitHub/Karla/fonts/OFL.txt /Users/mirkovelimirovic/Documents/GitHub/Karla/fonts/ttf/OFL.txt
-cp /Users/mirkovelimirovic/Documents/GitHub/Karla/fonts/OFL.txt /Users/mirkovelimirovic/Documents/GitHub/Karla/fonts/variable/OFL.txt
-
-
-##This is just to rename Variable Fonts for our naming convention as it's a broken check atm
-# mv ./fonts/variable/Karla.ttf ./fonts/variable/Karla\[wght\].ttf
-# mv ./fonts/variable/Karla-Italic.ttf ./fonts/variable/Karla-Italic\[wght\].ttf
+mv ./fonts/variable/Karla.ttf ./fonts/variable/Karla\[wght\].ttf
+mv ./fonts/variable/Karla-Italic.ttf ./fonts/variable/Karla-Italic\[wght\].ttf
