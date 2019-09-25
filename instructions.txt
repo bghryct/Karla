@@ -1,0 +1,26 @@
+####Project should look like this
+####Create Virtual Environment
+
+	pip install virtualenv
+
+	virtualenv venv
+
+####activate the virtual environment
+
+	source venv/bin/activate
+
+####download and install gftools try 
+
+	pip install gftools
+
+####This probably won't work if the installation is still being ported to py3
+####Instead follow the directions here 
+
+	https://github.com/googlefonts/gftools
+
+####Where the directions are pretty clear that you should install from 
+
+	pip install git+https://github.com/googlefonts/gftools
+
+####
+	
