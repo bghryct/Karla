@@ -1,4 +1,4 @@
-####Project should look like this
+####This setup script assumes you're using 
 ####Create Virtual Environment
 
 	pip install virtualenv
